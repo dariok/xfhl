@@ -1,0 +1,152 @@
+\documentclass[open=any, index=totoc, paper=167mm:239mm]{scrbook}
+\KOMAoption{headings}{small,optiontohead}
+
+% Set fonts
+\usepackage{fontspec}
+\setmainfont[UprightFeatures={
+    SmallCapsFont={FreeSerif},
+    SmallCapsFeatures={Letters=SmallCaps,LetterSpace=6}
+  },
+  BoldFeatures={
+    LetterSpace=3
+  }
+]{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
+% Set main page layout
+\usepackage[xetex]{geometry}
+\geometry{inner=20mm, outer=35mm, top=22.5mm, bottom=30mm,
+  headsep=2.5mm, marginparsep=3mm, marginparwidth=30mm, showframe}
+
+% set headers
+\usepackage{scrlayer-scrpage}
+\automark[chapter]{chapter}
+\automark*[section]{}
+
+% Structure: settings for page style, font and toc entry
+% Part
+\renewcommand*{\partpagestyle}{empty}
+
+% Chapter: starts at the top of the page
+\RedeclareSectionCommand[%
+  afterskip=0.5\baselineskip plus .15\baselineskip minus .15\baselineskip,
+  beforeskip=0\baselineskip, %1\baselineskip
+  innerskip=0pt,
+  tocnumwidth=4em
+]{chapter}
+
+% thumbmarks
+  \usepackage{tikz}
+
+  % taken from https://tex.stackexchange.com/questions/541881
+  \newcommand*{\firstpartthumbskip}{.1\paperheight}
+  \newcommand*{\lastpartthumbskip}{\firstpartthumbskip}
+  \newcommand*{\partthumbheight}{.1\paperheight}
+  \newcommand*{\partthumbwidth}{.01\paperheight}
+  \newcommand*{\partthumbskip}{.1\paperheight}
+  \colorlet{partthumbboxcolor}{gray!30}
+  \newcommand*{\partthumbcolor}{white}
+  \newcommand*{\partthumbformat}{\thepart}
+  \newkomafont{partthumb}{\normalfont\Large\color{\partthumbcolor}}
+
+  \makeatletter
+  \newcommand*\partthumb@box{%
+    \usekomafont{partthumb}%
+    \parbox[c][\partthumbheight][c]{\partthumbwidth}{%
+      \centering
+      \begin{tikzpicture}
+        \node[circle, minimum width=2.5cm, minimum height=2.5cm, fill=partthumbboxcolor]
+        {\ifodd\value{page}\makebox[0pt][c]{\hspace{-1cm}\partthumbformat} \else\makebox[0pt][c]{\hspace{1cm}\partthumbformat}\fi};
+      \end{tikzpicture}%
+    }%
+  }
+  \newcommand*{\partthumbbox}{%
+    \if@mainmatter
+      \ifnum\value{part}>\z@
+        \ifnum \value{partthumb}<\z@
+        \else
+          \begingroup
+            \protected@edef\reserved@a{\partthumbformat}%
+            \ifx\reserved@a\lastpartthumbformat\else
+              \stepcounter{partthumb}%
+              \global\let\lastpartthumbformat\reserved@a
+            \fi
+            \@tempcnta=\numexpr
+            \dimexpr
+            \paperheight
+            -\firstpartthumbskip
+            -\partthumbwidth
+            -\lastpartthumbskip
+            \relax / \dimexpr
+            \partthumbskip
+            \relax
+            +1
+            \relax
+            \ifnum \value{partthumb}<\@tempcnta
+            \else
+              \setcounter{partthumb}{0}%
+            \fi
+            \vspace*{%
+              \dimexpr
+              \firstpartthumbskip
+              + ( \partthumbskip )
+              * \value{partthumb}%
+              - \baselineskip
+              \relax
+            }\par
+            \setlength{\fboxsep}{0pt}%
+            \ifodd\value{page}
+              \hfill
+              \makebox[0pt][r]{%
+                \rotatebox[origin=c]{0}{\partthumb@box}}%
+              \hspace*{0.9cm}
+            \else
+              \hspace*{-1.4cm}
+              \makebox[0pt][l]{%
+                \rotatebox[origin=c]{0}{\partthumb@box}}%
+            \fi
+          \endgroup
+        \fi
+      \fi
+    \fi
+  }
+  \makeatother
+
+  \newcounter{partthumb}
+  \setcounter{partthumb}{10000}
+  \newcommand*{\lastpartthumbformat}{\relax}
+
+  \DeclareNewLayer[%
+    background,%
+    outermargin,%
+    contents=\partthumbbox
+  ]{partthumb}
+
+  \newcommand*\EnablePartthumb{%
+    \IfLayerAtPageStyle{scrheadings}{partthumb}{}
+    {\AddLayersToPageStyle{@everystyle@}{partthumb}}%
+  }
+  \newcommand*\DisablePartthumb{%
+    \RemoveLayersFromPageStyle{@everystyle@}{partthumb}%
+  }
+  
+\EnablePartthumb
+% END thumbmarks
+
+\usepackage{lipsum}
+
+\begin{document}
+  \frontmatter  
+    \thispagestyle{empty}
+    \vspace*{\fill}
+    \begin{center}The X-Universe for Humanists and Librarians\end{center}
+    \vspace*{\fill}
+
+    \tableofcontents
+
+  \mainmatter
+    \include{01-xml/01.tex}
+
+    \include{02-xsl/01.tex}
+\end{document}
