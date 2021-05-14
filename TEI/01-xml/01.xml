@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="part">XML</title>
+            <title>Basics</title>
+            <author ref="https://orcid.org/0000-0002-0118-0811">Dario Kampkaspar</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Sources available from <ptr target="https://github.com/dariok/xfhl" />.</authority>
+            <date notBefore="2021">2021–</date>
+            <availability>
+               <licence>CC-By-SA 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text xml:lang="en-uk">
+      <body>
+         <div>
+            <head>What is XML?</head>
+            <p>The <term>Extensible Markup Language</term>, or <abbr>XML</abbr>, is a formalised language, originally
+               defined by the <term>World Wide Web Consortium</term> (<abbr>W3C</abbr>) in 1998. It is by far not the
+               oldest markup language but one of the most frequently used markup languages today. When it was designed,
+               several design principles were closely followed to improve other, older markup languages. This careful
+               design process is one of the reasons of its success. To better understand the design principles, we need
+               to take a closer look at the basic reasons for using and concepts behind markup languages in general.</p>
+            <div>
+               <head>Markup languages</head>
+            </div>
+         </div>
+         <div>
+            <head>Introducing the DOM</head>
+         </div>
+         <div>
+            <head>Serialisations</head>
+         </div>
+      </body>
+  </text>
+</TEI>
