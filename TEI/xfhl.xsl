@@ -38,4 +38,25 @@
 \par </xsl:text>
     <xsl:apply-templates />
   </xsl:template>
+  
+  <xsl:template match="tei:figure">
+    <xsl:text>
+  \begin{figure}</xsl:text>
+    <xsl:apply-templates select="tei:graphic" />
+    <xsl:apply-templates select="tei:figDesc" />
+    <xsl:text>
+  \end{figure}</xsl:text>
+  </xsl:template>
+  <xsl:template match="tei:graphic">
+    <xsl:text>
+    \includegraphics[width=\linewidth]{</xsl:text>
+    <xsl:value-of select="replace(substring(@url, 4), '\.svg', '.jpg')"/>
+    <xsl:text>}</xsl:text>
+  </xsl:template>
+  <xsl:template match="tei:figDesc">
+    <xsl:text>
+    \caption{</xsl:text>
+    <xsl:apply-templates />
+    <xsl:text>}</xsl:text>
+  </xsl:template>
 </xsl:stylesheet>

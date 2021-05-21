@@ -54,8 +54,8 @@
   \newcommand*\partthumb@box{%
     \usekomafont{partthumb}%
     \parbox[c][\partthumbheight][c]{\partthumbwidth}{%
-      \centering
-      \begin{tikzpicture}
+      \centering%
+      \begin{tikzpicture}%
         \node[circle, minimum width=2.5cm, minimum height=2.5cm, fill=partthumbboxcolor]
         {\ifodd\value{page}\makebox[0pt][c]{\hspace{-1cm}\partthumbformat} \else\makebox[0pt][c]{\hspace{1cm}\partthumbformat}\fi};
       \end{tikzpicture}%
@@ -70,19 +70,19 @@
             \protected@edef\reserved@a{\partthumbformat}%
             \ifx\reserved@a\lastpartthumbformat\else
               \stepcounter{partthumb}%
-              \global\let\lastpartthumbformat\reserved@a
+              \global\let\lastpartthumbformat\reserved@a%
             \fi
             \@tempcnta=\numexpr
-            \dimexpr
-            \paperheight
-            -\firstpartthumbskip
-            -\partthumbwidth
-            -\lastpartthumbskip
-            \relax / \dimexpr
-            \partthumbskip
-            \relax
-            +1
-            \relax
+              \dimexpr
+                \paperheight
+                -\firstpartthumbskip
+                -\partthumbwidth
+                -\lastpartthumbskip
+              \relax / \dimexpr
+                \partthumbskip
+              \relax
+                +1
+              \relax
             \ifnum \value{partthumb}<\@tempcnta
             \else
               \setcounter{partthumb}{0}%
@@ -149,11 +149,13 @@
 
 \usepackage{lipsum}
 
+\usepackage{graphicx}
+
 \begin{document}
   \frontmatter  
     \thispagestyle{empty}
     \vspace*{\fill}
-    \begin{center}The X-Universe for Humanists and Librarians\end{center}
+    \begin{center}The XML Solar System for Humanists and Librarians\end{center}
     \vspace*{\fill}
 
     \tableofcontents
@@ -164,8 +166,16 @@
 
     \part{XPath}
 
-    \part{XSLT}
+    \part{XSLT 1}
     \include{03-xsl/01.tex}
+
+    \part{XPath functions 1}
+
+    \part{XSLT 2}
+
+    \part{XPath functions 2}
+
+    \part{Unit testing for XSLT}
 
     \part{XQuery}
 
