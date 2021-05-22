@@ -16,6 +16,9 @@
                <licence>CC-By-SA 4.0</licence>
             </availability>
          </publicationStmt>
+         <seriesStmt>
+            <title>The X Solar System for Humanists and Librarians</title>
+         </seriesStmt>
          <sourceDesc>
             <p>Born digital</p>
          </sourceDesc>
@@ -26,7 +29,7 @@
          <div>
             <head>What is XML?</head>
             <p>The <term>Extensible Markup Language</term>, or <abbr>XML</abbr>, is a formalised language, originally
-               defined by the <term>World Wide Web Consortium</term> (<abbr>W3C</abbr>) in 1998. It is by far not the
+               defined by the <rs type="group">World Wide Web Consortium</rs> (<abbr>W3C</abbr>) in 1998. It is by far not the
                oldest markup language but one of the most frequently used markup languages today. When it was created,
                several design principles were closely followed to improve other, older markup languages. This careful
                design process is one of the reasons of its success. To better understand the design principles, we need
