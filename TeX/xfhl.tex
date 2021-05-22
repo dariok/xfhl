@@ -157,11 +157,13 @@
 \usepackage[split]{splitidx}                                                                                             
 \makeindex                                                                                                               
 \newindex[Topics]{top}
+\newindex[People and Organisations]{per}
 
 % additional packages
 \usepackage{hyperref}
 \usepackage{microtype}
 \usepackage{graphicx}
+\usepackage{lipsum}
 
 \begin{document}
   \frontmatter  
@@ -193,6 +195,9 @@
 
     \part{TEI}
 
+  \backmatter
     \part{Indices}
+    \include{appendices/abbreviations}
+    \clearpage
     \printindex*
 \end{document}
