@@ -61,8 +61,9 @@
   </xsl:template>
   
   <xsl:template match="tei:term">
+    <xsl:text>\xmlTerm{</xsl:text>
     <xsl:apply-templates />
-    <xsl:text>\sindex[top]{</xsl:text>
+    <xsl:text>}\sindex[top]{</xsl:text>
     <xsl:apply-templates />
     <xsl:text>}</xsl:text>
   </xsl:template>
