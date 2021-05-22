@@ -20,20 +20,47 @@
             <p>Born digital</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text xml:lang="en-uk">
+   </teiHeader>
+   <text xml:lang="en-uk">
       <body>
          <div>
             <head>What is XML?</head>
             <p>The <term>Extensible Markup Language</term>, or <abbr>XML</abbr>, is a formalised language, originally
                defined by the <term>World Wide Web Consortium</term> (<abbr>W3C</abbr>) in 1998. It is by far not the
-               oldest markup language but one of the most frequently used markup languages today. When it was designed,
+               oldest markup language but one of the most frequently used markup languages today. When it was created,
                several design principles were closely followed to improve other, older markup languages. This careful
                design process is one of the reasons of its success. To better understand the design principles, we need
                to take a closer look at the basic reasons for using and concepts behind markup languages in general.</p>
             <div>
                <head>Markup languages</head>
             </div>
+            <div>
+               <head>Why XML is a misnomer</head>
+               <p>Despite its name, XML itself is not a markup language: it is the definition of the basic syntax any
+                  XML document has to follow. The XML standard, however, does not define any details about what its
+                  elements are to be named or indeed what these elements actually <emph>mean</emph>.</p>
+               <p>Adding a vocabulary and semantics to XML is the user’s task. Typically, for information interchange, a
+               vocabulary defined by some body will be used so that everybody involved in exchanging the data knows what
+               the elements mean. Examples of these <term>profiles</term> include <term>TEI</term>, <term>METS</term>,
+                  <term>MODS</term> and others.</p>
+            </div>
+         </div>
+         <div>
+            <head>Parts of the XML solar system</head>
+            <p>While <emph>XML in the strict sense</emph> is only the strict syntax definition given in the W3C
+               standard, references to XML are usually meant to include a number of additional standards that are
+               related to XML and add important capabilities that go beyond the simple syntax. It is these additional
+               languages that make XML powerful and indeed are necessary to actually achieve the separation of content
+               and layout that is central to the design of XML.</p>
+            <p>Figure <ptr target="#figure_yxz_m3q_rpb" /> contains an overview of standards that are related to XML.
+               It mainly contains standards defined by the W3C and especially does not list any of the data languages
+               that use the XML syntax. Also, it contains some standards that will not be discussed in detail in this
+               introduction because they are out of scope or have are not widely used. This group will only find some
+               cursory discussion later in this section.</p>
+            <figure xml:id="figure_yxz_m3q_rpb">
+               <figDesc>Overview of different standards connected to XML</figDesc>
+               <graphic url="../../images/x-solar-system.svg"/>
+            </figure>
          </div>
          <div>
             <head>Introducing the DOM</head>
@@ -42,5 +69,5 @@
             <head>Serialisations</head>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
