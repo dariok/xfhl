@@ -43,6 +43,8 @@
                <item>Extensible Stylesheet Language – Formatting Objects</item>
                <label>SGML</label>
                <item>Standard Generalized Markup Language</item>
+               <label>DTD</label>
+               <item>Document Type Definition</item>
             </list>
          </div>
       </body>
