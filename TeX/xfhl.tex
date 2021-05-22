@@ -134,9 +134,6 @@
 \EnablePartthumb
 % END thumbmarks
 
-% additional packages
-\usepackage{hyperref}
-
 % restart chapter counting for every part
 \usepackage{chngcntr}
 \counterwithin*{chapter}{part}
@@ -145,10 +142,14 @@
 \usepackage{polyglossia}
 \setmainlanguage[variant=british]{english}
 
+% define indices
+\usepackage[split]{splitidx}                                                                                             
+\makeindex                                                                                                               
+\newindex[Topics]{top}
+
+% additional packages
+\usepackage{hyperref}
 \usepackage{microtype}
-
-\usepackage{lipsum}
-
 \usepackage{graphicx}
 
 \begin{document}
@@ -167,7 +168,7 @@
     \part{XPath}
 
     \part{XSLT 1}
-    \include{03-xsl/01.tex}
+    %\include{03-xsl/01.tex}
 
     \part{XPath functions 1}
 
@@ -180,4 +181,7 @@
     \part{XQuery}
 
     \part{TEI}
+
+    \part{Indices}
+    \printindex*
 \end{document}

@@ -59,4 +59,11 @@
     <xsl:apply-templates />
     <xsl:text>}</xsl:text>
   </xsl:template>
+  
+  <xsl:template match="tei:term">
+    <xsl:apply-templates />
+    <xsl:text>\sindex[top]{</xsl:text>
+    <xsl:apply-templates />
+    <xsl:text>}</xsl:text>
+  </xsl:template>
 </xsl:stylesheet>
