@@ -66,4 +66,29 @@
     <xsl:apply-templates />
     <xsl:text>}</xsl:text>
   </xsl:template>
+  
+  <xsl:template match="tei:rs">
+    <xsl:apply-templates />
+    <xsl:text>\sindex[per]{</xsl:text>
+    <xsl:apply-templates />
+    <xsl:text>}</xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:list[@type eq 'gloss']">
+    <xsl:text>
+  \begin{description}</xsl:text>
+    <xsl:apply-templates select="tei:label">
+      <xsl:sort />
+    </xsl:apply-templates>
+    <xsl:text>
+  \end{description}</xsl:text>
+  </xsl:template>
+  <xsl:template match="tei:label">
+    <xsl:text>
+    \item[</xsl:text>
+    <xsl:apply-templates />
+    <xsl:text>]{</xsl:text>
+    <xsl:apply-templates select="following-sibling::*[1]" />
+    <xsl:text>}</xsl:text>
+  </xsl:template>
 </xsl:stylesheet>
