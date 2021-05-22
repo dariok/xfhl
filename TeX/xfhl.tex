@@ -38,15 +38,25 @@
 
 % thumbmarks
   \usepackage{tikz}
+  \usepackage{xcolor}
+
+  % set the color for thumb mark and chapter heading color
+  \usepackage{etoolbox}
+  \newcommand{\basecolor}{%
+    \ifcase\arabic{part} black\or blue\or orange\or green\or red\or orange%
+      \or cyan\or purple\or violet\or brown\or black\or black\fi%
+  }
+  \newcommand{\chaptercolor}{\basecolor!20!white}
+  \newcommand{\chaptertitlecolor}{\basecolor!70!white}
+  \addtokomafont{chapter}{\color{\chaptertitlecolor}}
 
   % taken from https://tex.stackexchange.com/questions/541881
   \newcommand*{\firstpartthumbskip}{.1\paperheight}
   \newcommand*{\lastpartthumbskip}{\firstpartthumbskip}
   \newcommand*{\partthumbheight}{.1\paperheight}
   \newcommand*{\partthumbwidth}{.01\paperheight}
-  \newcommand*{\partthumbskip}{.1\paperheight}
-  \colorlet{partthumbboxcolor}{gray!30}
-  \newcommand*{\partthumbcolor}{white}
+  \newcommand*{\partthumbskip}{.09\paperheight}
+  \newcommand*{\partthumbcolor}{\basecolor}
   \newcommand*{\partthumbformat}{\thepart}
   \newkomafont{partthumb}{\normalfont\Large\color{\partthumbcolor}}
 
@@ -56,8 +66,9 @@
     \parbox[c][\partthumbheight][c]{\partthumbwidth}{%
       \centering%
       \begin{tikzpicture}%
-        \node[circle, minimum width=2.5cm, minimum height=2.5cm, fill=partthumbboxcolor]
-        {\ifodd\value{page}\makebox[0pt][c]{\hspace{-1cm}\partthumbformat} \else\makebox[0pt][c]{\hspace{1cm}\partthumbformat}\fi};
+        \node[circle, minimum width=2cm, minimum height=2cm, fill=\basecolor!30]
+        %{\ifodd\value{page}\makebox[0pt][c]{\hspace{-.75cm}\partthumbformat} \else\makebox[0pt][c]{\hspace{.875cm}\partthumbformat}\fi};
+        {};
       \end{tikzpicture}%
     }%
   }
@@ -100,9 +111,9 @@
               \hfill
               \makebox[0pt][r]{%
                 \rotatebox[origin=c]{0}{\partthumb@box}}%
-              \hspace*{0.9cm}
+              \hspace*{0.65cm}
             \else
-              \hspace*{-1.4cm}
+              \hspace*{-1.15cm}
               \makebox[0pt][l]{%
                 \rotatebox[origin=c]{0}{\partthumb@box}}%
             \fi
