@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../XML_Vorlagen/Schema/obib_v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jobib2019-0001">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="additional">Vorabdruck</title>
+        <title type="main">Der Digitale Assistent DA-3</title>
+          <title type="sub">Eine Plattform für die Inhaltserschließung</title>
+          <title>noType</title>
+        <author>
+          <name>
+            <forename>Regine</forename>
+            <surname>Beckmann</surname>
+          </name>
+          <affiliation>Die Autorin ist <roleName>Mitarbeiterin</roleName> der <orgName>Staatsbibliothek zu
+                Berlin<idno type="ISIL"
+                >https://sigel.staatsbibliothek-berlin.de/nc/en/suche/?isil=DE-1</idno></orgName>
+          </affiliation>
+          <email/>
+          <idno type="ORCID">https://orcid.org/0000-0001-7052-2793</idno>
+        </author>
+        <author>
+          <name>
+            <forename>Imma</forename>
+            <surname>Hinrichs</surname>
+          </name>
+          <affiliation>Die Autorin ist <roleName>Mitarbeiterin</roleName> der <orgName>Universitätsbibliothek
+                Stuttgart<idno type="ISIL"
+                >https://sigel.staatsbibliothek-berlin.de/nc/en/suche/?isil=DE-93</idno></orgName></affiliation>
+          <email/>
+          <idno type="GND">https://d-nb.info/gnd/112041928X</idno>
+        </author>
+        <author>
+          <name>
+            <forename>Melanie</forename>
+            <surname>Janßen</surname>
+          </name>
+          <affiliation>Die Autorin ist <roleName>Mitarbeiterin</roleName> der <orgName>Staatsbibliothek zu
+              Berlin <idno type="ISIL"
+                >https://sigel.staatsbibliothek-berlin.de/nc/en/suche/?isil=DE-1</idno></orgName></affiliation>
+          <email/>
+          <idno type="ORCID">https://orcid.org/0000-0003-3696-3290</idno>
+        </author>
+        <author>
+          <name>
+            <forename>Gérard</forename>
+            <surname>Milmeister</surname>
+          </name>
+          <affiliation>Der Autor ist <roleName>Mitarbeiter</roleName> der <orgName>Eurospider Information
+              Technology AG</orgName>, Zürich </affiliation>
+          <email/>
+          <idno type="GND">https://d-nb.info/gnd/1120930758</idno>
+        </author>
+        <author>
+          <name>
+            <forename>Peter</forename>
+            <surname>Schäuble</surname>
+          </name>
+          <affiliation>Der Autor ist <roleName>Mitarbeiter</roleName> der <orgName>Eurospider Information
+              Technology AG</orgName>, Zürich </affiliation>
+          <email/>
+          <idno type="ORCID">https://orcid.org/0000-0002-2619-0506</idno>
+          <idno type="GND">https://d-nb.info/gnd/1089131763</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Verein Deutscher Bibliothekarinnen und Bibliothekare e.V.</publisher>
+        <date>2019</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>For this publication a Creative Commons Attribution 4.0 International license has been
+              granted by the author(s) who retain full copyright.</p>
+          </licence>
+        </availability>
+        <distributor>LMU München<idno type="GND">https://d-nb.info/gnd/2002585-3</idno></distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source, born digital.</p>
+        <p>Issue of origin: <idno type="DOI">https://doi.org/10.5282/o-bib/2019H3</idno></p>
+        <p>Quotable link: <idno type="DOI">https://doi.org/10.5282/o-bib/2019H3S1-20</idno></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>o-bib wird vom VDB herausgegeben, mit Open Journal Systems (OJS) produziert und bei der
+          Universitätsbibliothek der LMU München gehostet. Autorinnen und Autoren können sich für o-bib
+          registrieren und ihre Beiträge online einreichen.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Deutsch</language>
+        <language ident="en">English</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:lang="de">
+          <term>Sacherschließung</term>
+          <term>Digitaler Assistent</term>
+          <term>halbautomatische Erschließung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="abstract" xml:id="abstract" xml:lang="de">
+        <head>Zusammenfassung</head>
+        <p>Der <soCalled>Digitale Assistent</soCalled> DA-3 ist ein webbasiertes Tool zur maschinellen
+          Unterstützung der intellektuellen verbalen und klassifikatorischen Inhaltserschließung.Das Tool wird
+          in einem auf drei Jahre angelegten Kooperationsprojekt für den Einsatz in K10plus ausgebaut.
+          Projektpartner sind die Firma Eurospider Information Technology, das IBS|BW-Konsortium, die
+          Staatsbibliothek zu Berlin und die beiden Verbundzentralen VZG und BSZ. Als Nachfolger des DA-2
+          wurde der DA-3 völlig neu aufgesetzt und bereits um zahlreiche neue Funktionen erweitert. Der
+          Beitrag beschreibt den derzeitigen Stand und Nutzen des Projekts im Kontext der aktuellen
+          Rahmenbedingungen der Inhaltserschließung. Er stellt ausführlich die Funktionalitäten des DA-3 vor,
+          gibt Einblick in die technischen Hintergründe und eröffnet einen Ausblick auf ausstehende
+          Entwicklungsschritte.</p>
+      </div>
+      <div type="abstract" xml:id="abstract_en" xml:lang="en">
+        <head>Summary</head>
+        <p> The <soCalled>digital assistant</soCalled> DA-3 is a web-based tool to assist intellectual
+          classification and subject indexing. The tool is being developed for application in K10plus in a
+          collaborative project termed to last for three years. The partners in the project are Eurospider
+          Information Technology, the IBS|BW Consortium, Staatsbibliothek zu Berlin and VZG and BSZ, the two
+          head offices of GBV and SWB. As a successor of the DA-2, the DA-3 was newly designed and many new
+          features were added. The article describes the status quo of the project and its benefits in the
+          context of current conditions of subject indexing. It presents the functionalities of the DA-3 in
+          detail, offers insights into its technical background and outlines future development steps. </p>
+      </div>
+    </front>
+    <body>
+      <div xml:id="d1" type="introduction">
+        <head type="main">Einführung: Sacherschließung per Mausklick</head>
+        <p> Der Digitale Assistent DA-3 ist ein webbasiertes Werkzeug zur maschinellen Unterstützung der
+          inhaltlichen Erschließung in Bibliotheken. Die Unterstützung basiert auf zwei Hauptfunktionen, die
+          unter einer gemeinsamen Benutzeroberfläche angeboten werden: Aus verschiedenen Quellen werden
+          Vorschläge für Schlagwörter und Notationen zur Übernahme in die zu bearbeitende Titelaufnahme
+          generiert. Zusätzlich ist durch Einbindung der wichtigsten im deutschsprachigen Raum genutzten
+          Normdateien eine vollständige intellektuelle inhaltliche Erschließung auch ohne Vorschläge möglich.
+          Zahlreiche weitere Funktionen erleichtern und beschleunigen den Erschließungsprozess. </p>
+        <p> Im Frühjahr 2016 wurde auf dem Leipziger Bibliothekskongress einer breiteren Fachöffentlichkeit die
+          zunächst nur für den Einsatz im IBS|BW-Konsortium <ref target="#foot_1">1</ref> konzipierte
+          Vorgängerversion DA-2 vorgestellt.<ref target="#foot_2">2</ref> Die Zuhörerschaft nahm die
+          Entwicklung nicht nur vor dem Hintergrund strategischer Diskussionen um neue zukunftsfähige
+          Verfahren der Inhaltserschließung mit großem Interesse auf. Vor allem viele der Praktikerinnen und
+          Praktiker schienen sich eine solch komfortable Hilfe bei der Erledigung der bibliothekarischen
+          Kernaufgabe Sacherschließung angesichts ihres immer breiter werdenden Aufgabenspektrums schon lange
+          gewünscht zu haben. Der DA-2 generierte Vorschläge für GND-Schlagwörter aus den
+          Erschließungsleistungen einiger deutschsprachiger Bibliotheksverbünde und der DNB sowie aus
+          verschiedenen Mappings aus approximativen Übersetzungen zur GND. Als zukunftsorientierter Ansatz war
+          ein Verfahren der Ähnlichkeitsanalyse integriert, bei dem aus einem separaten Titeldatenindex anhand
+          verschiedener Kriterien (u.a. Titel und Autor) ähnliche Datensätze mit GND-Erschließung angezeigt
+            wurden.<ref target="#foot_3">3</ref> Die Vorschläge konnten nach intellektueller Eignungsprüfung
+          per Mausklick in das eigene Katalogisierungssystem übernommen werden. Schon diese Version bestach
+          durch eine beträchtliche Vereinfachung der Arbeitsabläufe, indem z.B. verfügbare Fremddaten
+          gebündelt auf der Benutzeroberfläche angezeigt wurden und somit das häufig praktizierte
+          Copy-and-paste aus verschiedenen externen Informations- und Quellsystemen entfiel.<ref
+            target="#foot_4">4</ref> Der DA-2 war ein Kooperationsprojekt der Universitätsbibliothek
+          Stuttgart, der Firma Eurospider Technology in Zürich und des Bibliotheksservice-Zentrums
+          Baden-Württemberg (BSZ), das an den ursprünglich für die Zentralbibliothek Zürich entwickelten
+          Digitalen Assistenten anknüpfte.<ref target="#foot_5">5</ref> Inzwischen wird das Tool in einem auf
+          drei Jahre angelegten Kooperationsprojekt zwischen dem IBS|BW-Konsortium, der Staatsbibliothek zu
+          Berlin, der Firma Eurospider Information Technology und den beiden Verbundzentralen VZG und BSZ zu
+          einem zentralen und leistungsstarken Service für die Inhaltserschließung in K10plus
+          weiterentwickelt. Die ersten Anwenderbibliotheken in SWB und GBV setzen den neu entwickelten DA-3
+          während dieser Projektphase bereits erfolgreich ein; am Ende ist die Überführung in den
+          Routinebetrieb vorgesehen. </p>
+      </div>
+      <div xml:id="d2" type="section">
+        <head type="main">Bewegte Zeiten für die Inhaltserschließung</head>
+        <p> Bevor die neue Version des Digitalen Assistenten, DA-3, in ihrem jetzigen Funktionsumfang und Nutzen
+          vorgestellt wird, sollen zunächst die Rahmenbedingungen und Herausforderungen im Bereich
+          inhaltlicher Erschließung in Bibliotheken skizziert werden, vor deren Hintergrund sich die
+          Weiterentwicklung des halbautomatischen Werkzeugs vollzogen hat. Seit vielen Jahren bereits wird in
+          den Bibliotheken auf Führungsebene, auf bibliothekarischer und auf IT-Ebene mit durchaus
+          unterschiedlichen Zielvorstellungen über ein angemessenes Verhältnis von Aufwand und Nutzen
+          intellektueller inhaltlicher Erschließung diskutiert. Häufig genannte Gründe für diese Diskussionen
+          sind unter anderem Veränderungen in den bibliothekarischen Berufsbildern, fortschreitender
+          Personalmangel auf der einen Seite und der kaum mehr mit intellektuellen Erschließungsverfahren zu
+          bewältigende sprunghafte Anstieg der Menge digitaler Medien auf der anderen Seite.<ref
+            target="#foot_6">6</ref> Aber auch Fortschritte und Perspektiven in den Verfahren maschineller
+          Indexierung, Suchmaschinentechnologien und die zunehmende Vielfalt an Medienarten und
+          Erschließungsmethoden in den Katalogen und Discoverysystemen haben die Stellung der traditionellen
+          intellektuellen Inhaltserschließung gegenüber anderen Verfahren auf den Prüfstand gebracht.<ref
+            target="#foot_7">7</ref> Die Frage ist, welchen Beitrag zukünftig die intellektuelle
+          Inhaltserschließung für die Informationsaufbereitung heutiger Mega-Indizes leisten soll.<ref
+            target="#foot_8">8</ref>
+        </p>
+        <p> Vor dem hier beschriebenen Hintergrund hat beispielsweise die Deutsche Nationalbibliothek (DNB) in
+          den vergangenen Jahren mehrfach ihre Konzepte zur Inhaltserschließung den veränderten Umständen
+            angepasst.<ref target="#foot_9">9</ref> Nicht selten scheint die praktische Inhaltserschließung
+          einzelner Bibliotheken aus den oben genannten Gründen als institutionelle oder fachspezifische
+          Einzelentscheidung reduziert oder sogar eingestellt zu werden.<ref target="#foot_10">10</ref>
+          Dadurch entstehen Lücken im thematischen Zugang zu den Beständen der Bibliotheken, die sich im
+          Retrieval unmittelbar in unvollständigen Trefferlisten niederschlagen und die Bewertung der Relevanz
+          von Rechercheergebnissen erschweren. Aber auch zur Verbesserung von Lernverfahren bei der
+          Weiterentwicklung maschineller Erschließungsmethoden sind die Bibliotheken auf Trainingsdaten
+          angewiesen. Deren Aktualität und Validität soll durch eine kooperative und verlässlich erbrachte
+          Inhaltserschließung der Bibliotheksverbünde und der DNB gewährleistet werden. Durch Lücken und
+          Brüche in der inhaltlichen Erschließung verliert dieser Datenbestand an Konsistenz und Qualität, was
+          sich negativ auf die Ergebnisse maschineller Erschließung auswirkt. </p>
+        <div xml:id="d2.1" type="section">
+          <head type="main">Doppelarbeit und zweierlei Maß</head>
+          <p> Erstaunlich ist, dass im Vorfeld einer oftmals aus der Not heraus geborenen Kapitulation vor den
+            zu erschließenden Mengen keineswegs alle naheliegenden Möglichkeiten ausgeschöpft sind, die in
+            den Katalogisierungssystemen bereits vorhandenen Daten effizient nachzunutzen. Einige seit
+            langem bestehende Desiderate seien hier beispielhaft aufgeführt: Der Datentausch zwischen den
+            Bibliotheksverbünden des D-A-CH-Raumes funktioniert nicht so umfassend und transparent, wie es
+            gemäß der Idee arbeitsteiliger Sacherschließung, nach der ein Titel möglichst nur einmal
+            inhaltlich erschlossen wird, wünschenswert wäre. Auch wenn es bislang keine statistisch
+            belegbaren Erhebungen gibt, zeigt die praktische Erfahrung durch Recherchen im KVK während des
+            Erschließungsprozesses, dass der Anteil bereits mit GND-, RVK- und BK-Daten angereicherter Titel
+            in den Katalogen durch optimierte Verfahren im Fremddatentausch erheblich höher sein könnte.
+            Auch die maschinelle Synchronisation der Inhaltserschließung zwischen verschiedenen Ausgaben und
+            Auflagen ein und desselben Werks ist zurzeit noch überwiegend auf Projekte und regionale
+            Maßnahmen begrenzt. Auf diesem Gebiet sind aber in absehbarer Zeit erhebliche Fortschritte, z.B.
+            über Werkclusterverfahren, zu erwarten. Hierbei werden Publikationen anhand des Abgleichs
+            beschreibender Metadaten zu Werkbündeln zusammengefasst und gemeinsam mit inhaltserschließenden
+            Daten angereichert.<ref target="#foot_11">11</ref> In den Bibliotheken wird also gegenwärtig
+            noch viel unnötige händische Doppelarbeit geleistet, die durch den sinnvollen und verlässlichen
+            Einsatz maschineller Routinen für die Nachnutzung verfügbarer Daten reduziert werden könnte. </p>
+          <p>Ein weiteres gewichtiges Problem für die thematische Recherche ist die unterschiedliche
+            Behandlung gedruckter und elektronischer Medien in der inhaltlichen Erschließung.<ref
+              target="#foot_12">12</ref> Titel, die intellektuell und mit im deutschsprachigen Raum breit
+            genutzten Systemen (z.B. GND/RSWK bzw. RVK) erschlossen sind, machen mittlerweile den kleineren
+            Teil der Gesamtnachweise aus und sind überwiegend auf den gedruckten Monografienbestand
+            beschränkt. Der große Anteil elektronischer Medien wird, wenn überhaupt, sehr uneinheitlich
+            erschlossen. Meist werden grob strukturierte Systeme wie DDC-Sachgruppen oder maschinelle
+            Verfahren mit qualitativ bislang noch sehr heterogenen Ergebnissen eingesetzt. In den
+            Qualitätsstandards misst man hier folglich einzig auf der formalen Basis der Publikationsform
+            mit zweierlei Maß. Im Ergebnis sind, ebenso wie bei der zuvor beschriebenen Problematik der
+            verschiedenen Auflagen und Ausgaben eines Titels, identische Themen nur aufgrund ihrer
+            Publikationsform unterschiedlich oder gar nicht erschlossen. Die daraus resultierende
+            Unzuverlässigkeit der Suchergebnisse ist bei der Recherche nicht transparent. </p>
+          <p> Wie ein Paukenschlag wirkte auf die Fachcommunity im Sommer 2017 die Ankündigung der DNB, als
+            Gegenmaßnahme zu dieser inhomogenen Situation in den Nachweissystemen die inhaltliche
+            Erschließung des Printbestandes der Reihen B und H als maschinell erzeugte Indexate
+              auszuliefern.<ref target="#foot_13">13</ref> Die inhaltlich sinnlosen Brüche in den
+            Erschließungsverfahren unterschiedlicher Publikationsformen sollten durch ein methodisch
+            einheitliches Konzept überwunden werden. Nach einer ersten Phase sehr kritischer Reaktionen, die
+            sich vor allem auf das Vorgehen und die zum Teil ungenügenden Ergebnisse bezog, löste der
+            Vorstoß der DNB auf den verschiedenen Fach- und Entscheidungsebenen eine zunehmend konstruktive
+            Beschäftigung mit Strategien und Maßnahmen aus. Inzwischen ist in der Diskussion um eine
+            sinnvolle Zukunft der Inhaltserschließung ein anwendungsspezifischer Methodenkanon, in dem
+            intellektuelle und verschiedene maschinelle Verfahren einander ergänzen, eine konsensfähige
+              Perspektive.<ref target="#foot_14">14</ref> Voraussetzung sind belastbare
+            Qualitätsstandards, verlässliche Kooperationskonzepte und die Verbesserung der technischen
+            Möglichkeiten im Datentausch. Für den Bereich der arbeitsteiligen intellektuellen
+            Inhaltserschließung werden geeignete Unterstützungswerkzeuge benötigt. Ein solches Werkzeug ist
+            der Digitale Assistent DA-3. </p>
+        </div>
+      </div>
+      <div xml:id="d3" type="section">
+        <head type="main">Auf dem Weg zum One-Stop-Shop: Vom DA-2 zum DA-3</head>
+        <p> Vor dem Hintergrund der eingangs beschriebenen Rahmenbedingungen bekundete die Staatsbibliothek zu
+          Berlin (SBB) 2016 als erste GBV-Bibliothek ihr Interesse, den DA-2 zur effizienten inhaltlichen
+          Erschließung einzusetzen. Im Verlauf des Jahres 2017 wurden intensiv die Akzeptanz des
+          Unterstützungstools im sacherschließenden Kollegium und die funktionale Eignung für die vielseitigen
+          Anforderungen der SBB evaluiert. Ihr Bestand zeichnet sich durch einen besonders hohen Zugang an
+          Forschungsliteratur in nahezu allen Fächern und Publikationssprachen und durch einen erheblichen
+          Anteil von Medien mit Alleinbesitz aus. Aus den zahlreichen Sonderabteilungen und FIDs ergeben sich
+          zudem hohe wissenschaftliche Anforderungen an die Erschließung der Bestände.<ref target="#foot_15"
+            >15</ref> Schnell war daher klar, dass die Anpassung des DA-2 an die Anforderungen der SBB
+          seitens der Firma Eurospider und die komplexe Programmierung des Re-Imports der
+          Sacherschließungsdaten in das Katalogisierungssystem des GBV durch die VZG ohne große Zusatzaufwände
+          den späteren verbundweiten Einsatz des Tools erlauben würde. Nach der positiv bewerteten
+            Erprobungsphase<ref target="#foot_16">16</ref> gingen die ursprünglichen Projektpartner mit der
+          SBB und der VZG eine Kooperationspartnerschaft für die Entwicklung eines gemeinsamen, um notwendige
+          Funktionalitäten erweiterten Basismodells innerhalb einer dreijährigen Entwicklungsphase ein. Die
+          Systementwicklung des Digitalen Assistenten liegt bei der Firma Eurospider, die fachliche
+          Koordination haben zurzeit, unter Beteiligung der FID der UB Tübingen und der Zentralbibliothek für
+          Wirtschaftswissenschaften (ZBW), für den SWB die UB Stuttgart und für den GBV die Staatsbibliothek
+          zu Berlin. BSZ und VZG übernehmen die Bereitstellung und dauerhafte Pflege der Schnittstellen für
+          die Katalogabfrage und den Re-Import der Daten. </p>
+        <p> Der kollegiale Austausch über die beiden damals noch getrennt in SWB und GBV betriebenen Instanzen
+          des DA-2 hatte längst erwiesen, dass die Anforderungen an ein umfassendes Unterstützungswerkzeug in
+          den Bibliotheken beider Verbünde überwiegend identisch waren. Mit den FID Theologie und
+          Religionswissenschaft der UB Tübingen und der Zentralbibliothek für Wirtschaftswissenschaften (ZBW)
+          in Kiel und Hamburg sind zwei weitere Interessenten beteiligt, die zukunftsweisende Impulse für die
+          besonderen Bedarfe von Spezial- bzw. Fachbibliotheken einbringen, etwa die Aufsatzerschließung oder
+          die Integration der Qualitätskontrolle maschinell erzeugter Daten in das Vorschlagssystem. Vor allem
+          aber zeigte die Praxis im DA-2, dass ein wirklich effizienter Nutzen erst dann gegeben sein wird,
+          wenn der gesamte Erschließungsprozess, die verbale und die klassifikatorische Erschließung, auf der
+          webbasierten Oberfläche des Digitalen Assistenten erfolgen kann und somit möglichst keine parallelen
+          Arbeitsschritte mit einem Wechsel ins Katalogisierungssystem mehr erforderlich sind. </p>
+        <div xml:id="d3.1" type="section">
+          <head type="main">K10plus</head>
+          <p> Die Fusion der beiden Verbunddatenbanken von GBV und BSZ mit über 200 Millionen Titelnachweisen
+            im K10plus-Projekt beförderte die Optimierung und die Reichweite des DA erheblich.<ref
+              target="#foot_17">17</ref> Eines der Ziele der Kooperation ist es, die Synergien und die
+            unterschiedlichen Stärken beider Verbünde zu nutzen, um gemeinsame, leistungsstarke Services auf
+            Basis einer breiten, homogenen Datenbasis aufzubauen. Formal- und Sacherschließung werden
+            künftig nach einheitlichen Regularien und Grundsätzen erfolgen. Was liegt unter diesen Umständen
+            näher, als den DA als gemeinsames zentrales Arbeitsinstrument für die intellektuelle
+            Sacherschließung in K10plus zu implementieren? Anfang 2018 fand dazu ein erstes Arbeitstreffen
+            der Projektbeteiligten beider Verbünde in Göttingen statt. </p>
+          <list rend="bulleted">
+            <head>Mit oberster Priorität wurden folgende Schritte für die gemeinsame Weiterentwicklung
+              vereinbart:</head>
+            <item>Es sollte nur noch eine einzige DA-Instanz für beide Verbünde mit unterschiedlichen
+              Anwenderprofilen geben.</item>
+            <item>Katalogdaten sollten nicht mehr im DA selbst gespeichert, sondern "on-the-fly" gesucht und
+              angezeigt werden. <ref target="#foot_18">18</ref></item>
+            <item>Die in deutschsprachigen wissenschaftlichen Bibliotheken gebräuchlichsten Klassifikationen
+              und Fachthesauri sollten als Normdateien integriert und in die Vorschläge eingebunden
+              werden.</item>
+          </list>
+          <p> Seitens der Firma Eurospider musste die Systemarchitektur für die aktuelle Version vollständig
+            neu aufgesetzt werden. Inzwischen steht der DA-3 beiden Verbünden im Rahmen der
+            anwendungsbegleiteten Projektphase zur Verfügung. Ziel des Kooperationsprojektes ist die
+            qualitative und quantitative Verbesserung des thematischen Zugangs zu den Beständen bei
+            gleichzeitiger Aufwandsreduktion. Das Tool soll zusammen mit anderen Verfahren, u.a. der
+            verbesserten Fremddateneinspielung, regelmäßigen Synchronisationsläufen, der Einbindung von
+            Konkordanzen oder der Entwicklung neuer maschineller Erschließungsmethoden, die durchgehende
+            sachliche Erschließung des K10plus und die Bereitschaft zur Arbeitsteilung unterstützen. </p>
+        </div>
+      </div>
+      <div xml:id="d4" type="section">
+        <head type="main">Die Funktionalitäten des Digitalen Assistenten DA-3</head>
+        <p> Bei der neuen Version des Digitalen Assistenten DA-3 handelt es sich wie beim DA-2 um eine
+          Webapplikation. Der DA-3 setzt jedoch, anders als der DA-2, für Suche und Anzeige von Titeldaten
+          direkt auf eine SRU-Schnittstelle des Verbundkatalogs auf.<ref target="#foot_19">19</ref>
+          Anschließend sucht der DA-3 zum vorliegenden Titel in externen Quellen vorhandene
+          Sacherschließungsdaten und stellt diese als Vorschläge zur Verfügung. Normdateien sind für die
+          eigenständige Erschließung eingebunden. Nach intellektueller Eignungsprüfung der Vorschläge, deren
+          Übernahme, Verbesserung oder Ergänzung werden die neuen Erschließungsdaten in die eigene
+          Katalogdatenbank zurückgeschrieben. Die Re-Importschnittstelle ist durch die Verbundzentralen so
+          programmiert, dass die Daten in der richtigen Syntax in die vorgesehenen Felder eingetragen werden.
+          Bereits vorhandene Erschließungsdaten werden dabei nicht überschrieben. </p>
+        <div xml:id="d4.1" type="section">
+          <head type="main">Flexible Fenster und Einstellungen</head>
+          <p> Die Bearbeitungsoberfläche des DA-3 ist benutzerabhängig individuell konfigurierbar. Sie besteht
+            aus sechs Fenstern: Tools, Info, Formaldaten, Scratchpad, Vorschläge und Datensatz, die in Größe
+            und Position flexibel einstellbar sind und an das Browserfensters angepasst werden können (siehe
+            Abbildung 1). <ref target="#foot_20">20</ref></p>
+          <figure xml:id="abb1">
+            <graphic url="Abb1.png"/>
+            <head type="legend" place="below">
+              <emph>Abb. 1: Ansicht "Bearbeiten" mit den flexiblen Fenstern: Tools − Info − Formaldaten −
+                Datensatz − Vorschläge − Scratchpad (von oben links im Uhrzeigersinn).</emph>
+            </head>
+          </figure>
+          <p> Im Fenster "Formaldaten" (in der Abbildung rechts oben) werden die wesentlichen Angaben zum
+            vorliegenden Titel gezeigt. Das Fenster "Datensatz" (rechts unten) enthält die im eigenen
+            Katalog vorhandenen Sacherschließungsdaten zum vorliegenden Titel. Einzelne Feldinhalte können
+            in dem Fenster auf- und zugeklappt und in der Reihenfolge umsortiert werden. Im Fenster "Tools"
+            (oben links) werden die einzelnen Erschließungssysteme ausgewählt und Normdaten gesucht. Auch
+            hier lassen sich einzelne Werkzeuge ausblenden. Die Normdatensätze selbst werden im Fenster
+            "Info" (oben Mitte) angezeigt. In "Scratchpad" (unten links) können Erschließungselemente
+            gesammelt werden, die beispielsweise häufiger verwendet werden. Im Fenster "Vorschläge" zeigt
+            der DA-3 die aus Fremddaten eingesammelten Erschließungen und approximative Übersetzungen zu
+            Eigen- und Fremddaten. Individuell nach Bedarf können auch in diesem Fenster Informationen, die
+            nicht interessieren, oder Funktionen, die nicht verwendet werden sollen, ausgeblendet werden.
+          </p>
+        </div>
+        <div xml:id="d4.2" type="section">
+          <head type="main">Erschließungssysteme im DA-3</head>
+          <p> Ein Kernelement des DA-3 ist es, verbale und klassifikatorische, fachübergreifende und
+            fachspezifische Erschließungssysteme unter einer Oberfläche suchbar und nutzbar zu machen. </p>
+          <p> Wie bereits in der Vorgängerversion ist im DA-3 die <hi rend="bold">Gemeinsame Normdatei
+              (GND)</hi> hinterlegt. Sie wird täglich aktualisiert und kann zusammen mit den ebenfalls
+            hinterlegten Angaben zu "Art des Inhalts", "Datenträger" und "Zielgruppe" sowie den
+            Zeitschlagwörtern, die mit den entsprechenden Jahresangaben ergänzt werden können, zur
+            Erschließung nach den Regeln für die Schlagwortkatalogisierung (RSWK) eingesetzt werden.
+            GND-Schlagwörter mit ihren Synonymen sind über die gesamte GND oder eingeschränkt auf einen
+            bestimmten Schlagworttyp recherchierbar. Im Fenster "Info" kann ein Schlagwortnormsatz angesehen
+            und geprüft werden. Über eine Verlinkung zwischen den Normsätzen kann sowohl in der
+            Schlagworthierarchie als auch zu verwandten Begriffen navigiert werden (siehe Abbildung 2).
+            Zugunsten der Übersichtlichkeit werden die Normsätze im Fenster "Info" nicht vollständig
+            angezeigt. Für eine Vollanzeige oder für die Anzeige einer sehr umfangreichen
+            Schlagworthierarchie kann man jedoch aus dem DA-3 heraus in die WebGND<ref target="#foot_21"
+              >21</ref> wechseln. </p>
+          <figure xml:id="abb2">
+            <graphic url="Abb2.png"/>
+            <head type="legend" place="below">Abb. 2: Suche in der GND im Fenster "Tools" mit Trefferliste
+              (links) und Anzeige eines gesuchten Sachschlagworts im Fenster "Info" (rechts).</head>
+          </figure>
+          <p>Damit die inhaltliche Erschließung nach RDA und RSWK insgesamt im DA-3 erfolgen kann, sind die
+            Elemente "Art des Inhalts", "Datenträger" und "Zielgruppe" in vollständigen Auswahllisten im
+            DA-3 hinterlegt und recherchierbar. Für die Eingabe zusätzlicher zeitlicher, örtlicher und
+            institutioneller Aspekte, beispielsweise bei Ausstellungskatalogen, bietet der DA-3 als
+            Hilfestellung ein Formular mit den entsprechenden Feldern. </p>
+          <p>Der <hi rend="bold">Standardthesaurus Wirtschaft (STW)</hi> wird von der Zentralbibliothek für
+            Wirtschaftswissenschaften (ZBW) zur verbalen Erschließung in ihrem Fachportal "EconBiz" und im
+            GBV eingesetzt und gepflegt. Er enthält eine nach exakter, breiterer bzw. näherer
+            Begriffsbeziehung aufgefächerte Konkordanz zur GND, die für die Vorschläge im DA-3 nutzbar
+            gemacht wird (vgl. Abschnitt 4.3).<ref target="#foot_22">22</ref> Im DA-3 ist der STW in
+            ähnlicher Weise wie die GND recherchierbar. </p>
+          <p>Die <hi rend="bold">Regensburger Verbundklassifikation (RVK)</hi> als Sacherschließungsinstrument
+            hat große Bedeutung im deutschen Sprachraum. Mehr als ein Drittel der RVK-Anwenderbibliotheken
+            nehmen am SWB oder GBV teil.<ref target="#foot_23">23</ref> Daher ist es nicht verwunderlich,
+            dass bereits bei den ersten Präsentationen des DA-2 der Wunsch nach einer Einbindung der RVK als
+            Erschließungsinstrument geäußert wurde. Die RVK ist als Normdatei hinterlegt und auf zwei Wegen
+            recherchierbar: Man kann in der Hierarchie der RVK blättern oder nach Notationen und deren
+            Benennungen und in den Registereinträgen suchen (siehe Abbildung 3). In der Anzeige der
+            RVK-Normsätze im Fenster "Info" kann ähnlich wie bei GND-Normsätzen in der Hierarchie und in den
+            Verweisungen navigiert werden (siehe Abbildung 3). </p>
+          <figure xml:id="abb3">
+            <graphic url="Abb3.png"/>
+            <head type="legend" place="below">Abb. 3: Blättern in der Hierarchie der RVK und Suche im
+              Fenster "Tools" (rot); Anzeige von RVK-Normsätzen im Fenster "Info" (blau).</head>
+          </figure>
+          <p> Die <hi rend="bold">Basisklassifikation (BK)</hi> wurde mit PICA im GBV eingeführt und wird
+            seither von vielen Bibliotheken im GBV, so auch der SBB, als Ergänzung zur verbalen Erschließung
+            verwendet. Daher war es in der SBB schon während des Betriebes des DA-2 eine wesentliche
+            Forderung, auch die BK über den DA vergeben zu können, um die Sacherschließung insgesamt in
+            einem System leisten zu können. Die BK enthält 2.087 Klassen und bietet sich als relativ
+            schlanke Klassifikation besonders für Fachgliederungen und eine Facettierung in
+            Discoverysystemen an.<ref target="#foot_24">24</ref> Ebenso wie bei der RVK kann im DA-3 in der
+            BK sowohl geblättert als auch nach Notationen, Benennungen oder Verweisungen gesucht und auch im
+            Fenster "Info" navigiert werden. </p>
+          <p> Die <hi rend="bold">Klassifikation der Fachdatenbank "Index Theologicus"<ref target="#foot_25"
+                >25</ref> (IxTheo-Klassifikation)</hi> wird in den Fachinformationsdiensten Theologie
+            und Religionswissenschaft der Universitätsbibliothek Tübingen für die Inhaltserschließung von
+            Aufsätzen, Monografien und anderem Material verwendet und ist auch Bestandteil der
+            SWB-Katalogdatenbank bzw. jetzt des K10plus. Die 139 Klassen der IxTheo-Klassifikation sind im
+            DA-3 in einer Liste direkt auswählbar, die Notationsbenennungen und deren deutsch- und
+            englischsprachigen Synonyme sind suchbar. </p>
+        </div>
+        <div xml:id="d4.3" type="section">
+          <head type="main">Erschließungsvorschläge</head>
+          <p> Als zweites Kernelement bietet der DA-3 Vorschläge aus Fremddaten und "approximativen
+            Übersetzungen" für die Erschließung an (siehe Abbildung 4), die intellektuell geprüft und, falls
+            geeignet, mit einem Mausklick in die eigene Erschließung übernommen werden können. Als
+            Fremddatenquellen dienen B3Kat, swissbib und die Kataloge der DNB, des OBV, der LoC und der
+              BnF.<ref target="#foot_26">26</ref> Dabei erfolgt der Abgleich primär über die ISBN. Alle zu
+            einer ISBN gefundenen inhaltlichen Erschließungsdaten − GND-Schlagwortfolgen,
+            GND-Einzelschlagwörter, RVK-Notationen usw. − werden angezeigt. Zusätzlich werden alle
+            Schlagwörter bzw. Notationen, soweit möglich, "approximativ übersetzt" und die Ergebnisse
+            ebenfalls als entsprechend gekennzeichnete Vorschläge angeboten. Für die "approximative
+            Übersetzung" werden die in den Normdateien eingetragenen Konkordanzen und Mappings herangezogen.
+            In Abbildung 4 sieht man zwei Schlagwortfolgen und zwei RVK-Notationen, die zu einem Titel im
+            OBV gefunden wurden, und "Übersetzungen" von RVK nach GND und von GND nach STW. Falls auch in
+            den Eigendaten bereits eine Erschließung, nur nicht die gewünschte, vorhanden ist, wird auch
+            diese "approximativ übersetzt" und das Ergebnis ebenfalls bei den Vorschlägen mit angezeigt. </p>
+          <figure xml:id="abb4">
+            <graphic url="Abb4.png"/>
+            <head type="legend" place="below">Abb. 4: Vorschläge zu einem Titel, hier GND, RVK und
+              STW.</head>
+          </figure>
+        </div>
+        <div xml:id="d4.4" type="section">
+          <head type="main">Scratchpad</head>
+          <p> Das im DA-2 noch einfach angelegte Scratchpad wurde stark ausgebaut. Die Nutzerinnen und Nutzer
+            können sich nun selbst mehrere Scratchpads anlegen. Aus fast allen Fenstern heraus können z.B.
+            Schlagwörter oder Notationen durch einen Klick auf ein nebenstehendes Symbol (vgl. Abbildung 2)
+            in das gerade aktive Scratchpad, wie in ein Notizbuch, eingetragen und gespeichert werden. Auf
+            diese Weise kann man in der eigenen Erschließungsarbeit häufig gebrauchte Erschließungselemente
+            sammeln und immer griffbereit haben. </p>
+          <p> Ein besonderes Scratchpad "Auto" dient dazu, Daten einzutragen und zu speichern, die bei jeder
+            Erschließung mit übernommen werden sollen, z.B. Sacherschließungs- oder FID-Kennzeichen. </p>
+        </div>
+        <div xml:id="d4.5" type="section">
+          <head type="main">Suche nach Vorgängerauflagen</head>
+          <p> Schon von Nutzerinnen und Nutzern des DA-2 wurde oft der Wunsch geäußert, aus dem DA heraus nach
+            anderen Ausgaben oder Auflagen und deren inhaltlicher Erschließung suchen zu können. Unter der
+            Funktion "Katalogsuche" führt der DA-3 nun mit zwei Klicks, ausgehend von einem Titel, der
+            gerade in der Bearbeitung ist, eine gezielte Suche nach gleichen Titeln aus. Die
+            voreingestellten Suchkriterien können modifiziert werden, falls sich z.B. Verlagsort oder
+            Namensansetzung geändert haben. Zu den gefundenen Titeln werden gebündelt die Erschließungsdaten
+            aus dem eigenen Verbundkatalog und unter einem zweiten Reiter die aus anderen Katalogen
+            angezeigt. Intellektuell geprüft und für gut befunden, können einzelne Schlagwörter oder
+            Notationen mit einem Klick in die eigene Erschließung übernommen werden. </p>
+        </div>
+        <div xml:id="d4.6" type="section">
+          <head type="main">Listenfunktion und Stapelverarbeitung</head>
+          <p> Auf Wunsch der Fachinformationsdienste an der UB Tübingen wurde die Möglichkeit einer
+            Stapelverarbeitung für die Erschließung von Aufsätzen in den DA-3 integriert. Eine Liste kann
+            hochgeladen oder händisch zusammengestellt werden. Die Titel der Liste können dann nacheinander
+            aufgerufen und inhaltlich erschlossen werden. </p>
+        </div>
+        <div xml:id="d4.7" type="section">
+          <head type="main">Funktionen im Betastadium</head>
+          <p> Noch im Probestadium befindet sich eine Funktion, die es erlaubt, vor dem Export die
+            Erschließung auf Probleme hin zu überprüfen, z.B. ob eine Verschlagwortung fehlt oder
+            unvollständig ist, und je nach Problem, Vorschläge zu dessen Behebung zu liefern. Die zurzeit
+            angewandten Heuristiken sind erweiterbar. Außerdem wird eine Funktion erprobt, die den
+            Fremddatenabgleich, der normalerweise über die ISBN erfolgt (vgl. 4.3), bei fehlender ISBN auf
+            eine Autor/Titel-Suche umstellt. </p>
+        </div>
+        <div xml:id="d4.8" type="section">
+          <head type="main">Unterstützung der Erschließung selbst</head>
+          <p> Aus allen Fenstern heraus, in denen Schlagwörter oder Notationen zu sehen sind, sei es in
+            "Tools", in "Info", einem "Scratchpad" oder in den "Vorschlägen", kann ein Schlagwort oder eine
+            Notation durch Klick auf das nebenstehende grüne Pluszeichen (vgl. Abbildungen 2 und 3) in die
+            eigene Erschließung übernommen werden. Für die Verschlagwortung mit GND kann voreingestellt
+            werden, ob, wie nach den RSWK verlangt, ausschließlich Schlagwortfolgen erstellt werden sollen −
+            alternativ können mit dem DA auch Einzelschlagwörter vergeben werden. GND-Schlagwortfolgen
+            können aus den Vorschlägen als Ganze übernommen, ergänzt und überarbeitet oder sie können ganz
+            neu gebildet werden. Der DA-3 unterstützt mit einem einfachen Handling die Überarbeitung und
+            Sortierung der Schlagwortfolgen. Die sinnvolle und regelgerechte Strukturierung der Folgen liegt
+            trotzdem stets in der Verantwortung der erschließenden Person. Zum Abschluss einer Erschließung
+            werden die Sacherschließungsdaten exportiert. In der Re-Import-Schnittstelle zum Verbundkatalog
+            ist die richtige Umsetzung der exportierten Daten in die entsprechende Feldstruktur der
+            Verbunddatenbank programmiert. </p>
+        </div>
+      </div>
+      <div xml:id="d5" type="section">
+        <head type="main">Erfahrungen aus der Sicht der Staatsbibliothek zu Berlin</head>
+        <p>Der DA-3 sollte den DA-2 in der SBB rasch ablösen, um auf die erweiterten Funktionalitäten,
+          insbesondere auf die Basisklassifikation, zugreifen zu können. Das Konzept des Digitalen Assistenten
+          war durch den DA-2 bereits bekannt, daher musste wenig Werbung für die Vorteile der unterstützten
+          Sacherschließung gemacht werden. </p>
+        <div xml:id="d5.1" type="section">
+          <head type="main">Entwicklungsbegleitende Anwendungseinführung</head>
+          <p> Die korrekte und vollständige Anzeige der Titeldaten bildete die Grundvoraussetzung für die
+            weitere Programmierung des DA-3. Durch das Referat Sacherschließung<ref target="#foot_27"
+              >27</ref> wurde daher der Datenimport von den Schnittstellen aus den Verbundkatalogen in den
+            DA-3 sowohl für die Titeldaten der SBB als auch für die Vorschläge geprüft. Begleitend wurde als
+            Basis für die Kommunikation mit Eurospider und der Verbundzentrale ein Fehlermanagement
+            eingeführt und mit der Erstellung von umfangreichen Schulungsunterlagen begonnen. </p>
+          <p> Die praktische Erschließung mit der neuen Oberfläche wurde durch eine Pilotgruppe aus
+            Kolleginnen und Kollegen verschiedener Fachabteilungen erprobt. Sie lieferte Hinweise zu
+            Oberfläche, Funktionalität und Bedienung des DA-3, welche gebündelt an Eurospider weitergegeben
+            wurden. Diverse Features, die sich inzwischen als zentral oder besonders praktisch
+            herausgestellt haben, entstammen dem Feedback aus dem eingeschränkten Testbetrieb mit der
+            Pilotgruppe und konnten durch enge Zusammenarbeit von Bibliotheken, Entwicklern und
+            Verbundzentralen sehr kurzfristig und bedarfsgerecht umgesetzt werden. </p>
+          <p> Im Referat Sacherschließung wurden die im DA-3 bearbeiteten Titel autoptisch gegen das
+            Einspielergebnis abgeglichen. Fälle, in denen die Erschließungen aus dem DA-3 nicht korrekt in
+            die Pica-Felder umgesetzt wurden, wurden einheitlich dokumentiert und gebündelt an die
+            Verbundzentrale kommuniziert. Durch diese Kooperation wurde der Re-Import in den Verbundkatalog
+            kontinuierlich verbessert. Auf Basis des in der Pilotphase erarbeiteten Standes erfolgte die
+            Schulung aller Sacherschließerinnen und Sacherschließer für den entwicklungsbegleitenden
+            Produktivbetrieb in der SBB. </p>
+        </div>
+        <div xml:id="d5.2" type="section">
+          <head type="main">Rückmeldungen der Anwenderinnen und Anwender</head>
+          <p> Das Feedback der Anwenderinnen und Anwender zum DA-3 war von Beginn an konstruktiv und zu großen
+            Teilen positiv. Gelobt wurde vor allem die schnelle Übernahme oder Bearbeitung ganzer
+            Schlagwortfolgen aus anderen Verbünden, die die externe Recherche und händische Übernahme
+            ablöst. In Bereichen mit wenig Fremddatenangebot waren die Mappings aus den LCSH oder der DDC
+            hilfreich. Aber auch kleine Features wurden begrüßt, etwa dass bei GND-Hinweissätzen<ref
+              target="#foot_28">28</ref> mit einem Klick die korrekten Schlagwörter vergeben werden oder
+            dass Sacherschließungsdaten von anderen Ausgaben und Vorauflagen angezeigt werden. Ein vielfach
+            geäußerter Wunsch, der in die Planung der nächsten Entwicklungsschritte übernommen wurde, ist
+            die Einbindung weiterer fremdsprachiger Kataloge, (Fach-)Thesauri, Klassifikationen und
+            Vorschlagsgeneratoren. Selbstverständlich wurden auch Vorschläge gemacht, die aus verschiedenen
+            Gründen nicht umgesetzt werden konnten: entweder weil die technischen Gegebenheiten der
+            umliegenden Systeme es nicht zuließen, weil es gegen Erschließungskonventionen verstoßen hätte
+            oder weil es außerhalb der Funktion des DA-3 angesiedelt war. Gerade solche Wünsche zeigen aber
+            deutlich, an welchen Stellen die Funktionen und die Bedienbarkeit der traditionellen
+            Katalogisierungssysteme am Bedarf der Anwenderinnen und Anwender vorbeigehen. Auch sie sind
+            deshalb wertvolle Hinweise für zukünftige Entwicklungen. </p>
+        </div>
+      </div>
+      <div xml:id="d6" type="section">
+        <head type="main">Nächste Entwicklungsziele des DA-3 Basismodells</head>
+        <list rend="bulleted">
+          <head>Bis zum Ende der dreijährigen Entwicklungsphase sind noch folgende Schritte vorgesehen:</head>
+          <item>Integration weiterer relevanter Konkordanzen, Erschließungssysteme (z.B. MeSH) und
+            Fremddatenquellen</item>
+          <item>Ausbau der approximativen Übersetzungen</item>
+          <item>Weitere Optimierung der Bedienoberfläche</item>
+          <item>Einbindung in die Katalogisierungsoberfläche der Verbunddatenbank zur Ergänzung von Lokal- und
+            Exemplardaten am Titeldatensatz</item>
+        </list>
+        <p> Die Aufnahme und Priorisierung darüber hinausgehender, lokaler Anforderungen richtet sich vor allem
+          nach dem zu erwartenden Nutzen für die wachsende Anwendergemeinschaft.<ref target="#foot_29"
+            >29</ref> Zukünftig soll ein Fachbeirat die Weiterentwicklung des DA begleiten und die
+          verschiedenen Anwenderinteressen koordinieren. Das Geschäftsmodell wird durch einen
+          Steuerungsausschuss entwickelt und umgesetzt. </p>
+      </div>
+      <div xml:id="d7" type="section">
+        <head type="main">Der Beitrag des DA-3 zur Sicherung und Zukunft der Inhaltserschließung</head>
+        <p> Vor dem Hintergrund der eingangs erläuterten Rahmenbedingungen kann die Wirkung des DA aus zwei
+          Perspektiven beschrieben werden: Aus Sicht der Anwenderinnen und Anwender ist sein praktischer
+          Nutzen, durch eine komfortable Bündelung und Aufbereitung von (Fremd)Daten verschiedener
+          Bibliotheksverbünde und -systeme zusammen mit der Einbindung von Normdateien auf einer gemeinsamen
+          Benutzeroberfläche die Effizienz und die Quantität in der Sacherschließung zu steigern. Gleichzeitig
+          bleiben die intellektuelle Hoheit über den Indexierungsprozess und der Qualitätsanspruch an das
+          eigene Tun vollumfänglich erhalten. Die intellektuelle Erschließung kann sich auf die eigentliche
+          Aufgabe, d.h. auf die Analyse des Inhalts eines Dokuments und seine standardisierte Beschreibung
+          konzentrieren. Sinnlose, zeitraubende Tätigkeiten wie Systemwechsel für externe Recherchen und das
+          händische Übertragen andernorts gesammelter Daten können ebenso entfallen wie die oft schwerfällige
+          Bedienung der Katalogisierungssysteme. Erstmals nutzt eine Arbeitsumgebung für die Sacherschließung
+          mit Hilfe von Mappings aus Übersetzungen und Konkordanzen den aufwändig erzeugten Informationsgehalt
+          aus Daten verschiedener Systeme sinnvoll nach. Der Grundgedanke kooperativer Sacherschließung wird
+          gestärkt, da der Aufwand signifikant reduziert wird. Blickt man aus aktueller strategischer
+          Perspektive auf die Zukunft der inhaltlichen Aufbereitung der Indizes, so ist das gemeinsame Ziel
+          der Entwicklung unterschiedlicher geeigneter Verfahren die breite und einheitliche Abdeckung des
+          Bestandes mit qualitätvoller Erschließung, unabhängig von der Publikationsform und -sprache der zu
+          erschließenden Titel. </p>
+        <p> Der hier formulierte Qualitätsanspruch basiert auf der Einschätzung, dass die Grundlage für die
+          Indexierung, egal, ob sie maschinell oder intellektuell erfolgt, die regel- und bedarfsgerechte
+          Verwendung von Thesauri, Ontologien und Normdateien ist.<ref target="#foot_30">30</ref> Als
+          Messgröße für die Bewertung maschinell erzeugter Daten und als Trainingsdaten in lernenden Verfahren
+          wird ein stets aktueller, konsistenter Grundstock hochqualitativer, validierter Titeldaten
+            benötigt.<ref target="#foot_31">31</ref> Geht man davon aus, dass zukünftige Methoden nicht in
+          Konkurrenz stehen, sondern einander ergänzen und sich gegenseitig unterstützen, so übernimmt hier
+          die kooperative intellektuelle Erschließung, unterstützt durch den DA, eine unerlässliche Aufgabe
+          bei der Sicherung dieser Voraussetzungen. </p>
+        <p> Skeptiker stellen zur Diskussion, ob Assistenzsysteme tatsächlich einen Mehrwert erzeugen oder nicht
+          vor allem den unzuverlässigen Datentausch zwischen den Verbünden auffangen würden.<ref
+            target="#foot_32">32</ref> Dem kann zum einen entgegnet werden, dass die bereitgestellten Daten
+          bereits durch die intellektuelle Entscheidung, sie zu verwenden, zu verwerfen oder zu ergänzen, eine
+          qualitative Verbesserung und Validierung erfahren. Zum anderen ist zurzeit nicht absehbar, ob und
+          wann mit einer Verbesserung der Fremddatenflüsse zu rechnen ist. Eine reale Gefahr ist hingegen aus
+          Sicht der Projektverantwortlichen die naheliegende, aber irrige Schlussfolgerung für zukünftige
+          Ressourcenplanungen, dass die Vorschlagsfunktion Fachpersonal einsparen könnte. Hiervor sei gewarnt:
+          Gerade die gewissenhafte fachliche Prüfung der Vorschläge, insbesondere wenn sie aus Mappings und
+          approximativen Übersetzungen stammen, ist die Grundlage für die nachhaltige Inhaltserschließung im
+          oben formulierten Sinne.<ref target="#foot_33">33</ref>
+        </p>
+      </div>
+      <div xml:id="d8" type="conclusion">
+        <head type="main">Resümee</head>
+        <p> Der DA-3 ist ein leistungsstarker Baustein zur Etablierung und Weiterentwicklung von geeigneten
+          Arbeitsumgebungen und zugleich ein Qualitätssicherungssystem im Kanon verschiedener zukünftiger
+          Verfahren. Er ermöglicht zuverlässig die Erstellung hochwertiger, auf Regeln und Normdaten
+          basierender inhaltsbeschreibender Daten bei gleichzeitiger Aufwandsreduktion. Dadurch unterstützt er
+          die verlässliche kooperative Sacherschließung, aber auch die Sicherung eines stets aktuellen Pools
+          validierter Trainingsdaten für die Optimierung maschineller Methoden und die Weiterentwicklung von
+          Assistenzsystemen. Zu einem mächtigen Instrument ist der DA-3 auch deshalb geworden, weil die
+          vielfältigen Anforderungen, unterschiedlichen Stärken und Kompetenzen der Kooperationspartner in
+          eine gemeinsame Entwicklung geflossen sind. Zu danken ist neben den beteiligten Fachkolleginnen und
+          -kollegen an dieser Stelle besonders den Entwicklern bei Eurospider sowie den beiden
+          Verbundzentralen VZG und BSZ. Der DA-3 erfährt erfreulicherweise Akzeptanz sowohl auf der
+          Führungsebene als auch auf der Ebene der Anwenderinnen und Anwender, denn erstmals steht mit dem DA
+          ein ressourcenschonendes und zugleich adäquates Arbeitsinstrument für die Sacherschließung zur
+          Verfügung. Und nicht zuletzt hat die Implementierung der Plattform auch innerhalb der Bibliotheken
+          den konstruktiven fachlichen Austausch zwischen den verschiedenen Ebenen über sinnvolle zukünftige
+          Erschließungskonzepte befördert. </p>
+      </div>
+    </body>
+
+    <back>
+      <div xml:id="appendix">
+        <head type="main">
+          <hi rend="italic">Anhang: Einblick in die Technik</hi>
+        </head>
+        <p>In diesem Anhang soll aus der Perspektive des Entwicklers ein Einblick in den technischen Hintergrund
+          gegeben werden: Der DA-3 kann als (relativ lose gekoppelter) Client eines Katalogsystems angesehen
+          werden. Dabei sind die im Folgenden erläuterten Abläufe von besonderem Interesse. Die im Text
+          genannten Zahlen korrespondieren mit den Zahlen in Abbildung 5. </p>
+        <figure xml:id="abb5">
+          <graphic url="Abb5.png"/>
+          <head type="legend" place="below">Abb. 5: Abläufe in schematischer Darstellung. Grafik:
+            Eurospider.</head>
+        </figure>
+        <div xml:id="appendix.1">
+          <head type="main">
+            <hi rend="italic">Abfrage von Eigendaten aus dem Katalog</hi>
+          </head>
+          <p>Benutzerinnen und Benutzer rufen einen Titel mittels der Titelidentifikation (bei PICA-Systemen
+            ist das die PPN), ISBN, ISSN oder Signatur auf. Auch erweiterte Suchvarianten mit u.a. Autor und
+            Titel oder sogar direkte SRU-Anfragen (CQL) sind möglich. Der DA-3 fragt dann den SRU-Dienst
+            (alternativ auch Z39.50) des Katalogs ab. Aus den vom Katalog gesendeten Daten werden dann die
+            Formal- und Sacherschließungen extrahiert und den Benutzerinnen und Benutzern dargestellt
+            &#9312;. </p>
+          <p>Die Schnittstellen (SRU, Z39.50), Formate (MARC21, MAB2), suchbaren Felder sowie
+            Extraktionsmechanismen weichen je nach Katalog stark voneinander ab und müssen individuell
+            angepasst werden. Diese Anpassungen werden im Rahmen eines <hi rend="italic">Profils
+            </hi>gemacht. Nur vom Katalogdienst unterstützte Suchmöglichkeiten und bereitgestellte Daten
+            stehen auch im DA-3 zur Verfügung. Um alle Möglichkeiten des DA-3 nutzen zu können, müssen
+            deshalb eventuell auch Anpassungen auf Seiten des Kataloganbieters durchgeführt werden. </p>
+        </div>
+        <div xml:id="appendix.2">
+          <head type="main">
+            <hi rend="italic">Importieren von Daten aus Fremdquellen</hi>
+          </head>
+          <p>Falls die Titeldaten ISBN- oder ISSN-Nummern enthalten, werden diese zur Abfrage in Fremdquellen
+            via SRU oder Z39.50 benutzt &#9313;. Das Profil definiert, welche Fremdquellen in Betracht
+            gezogen werden; Benutzerinnen und Benutzer haben aber auch die Möglichkeit, Quellen ein- und
+            auszuschalten. Danach werden, analog zu den Eigendaten, die Erschließungen extrahiert und dem
+            Benutzer im Tool "Vorschläge" angezeigt &#9314;. </p>
+        </div>
+        <div xml:id="appendix.3">
+          <head type="main">
+            <hi rend="italic">Generierung von Vorschlägen</hi>
+          </head>
+          <p> Aus den Eigendaten und Fremddaten werden durch diverse Generatoren weitere Vorschläge, die auf
+            bestehenden Konkordanzen beruhen (z.B. LCSH nach GND oder RVK nach GND) &#9315;, erzeugt und ins
+            Tool "Vorschläge" übernommen &#9316;. </p>
+        </div>
+        <div xml:id="appendix.4">
+          <head type="main">
+            <hi rend="italic">Export</hi>
+          </head>
+          <p>Nachdem die Benutzerin oder der Benutzer Änderungen an der Erschließung eines Titels
+            abgeschlossen hat &#9317;, müssen die Daten exportiert und in den Katalog rückimportiert werden
+            &#9318;. Dabei kann eine von zwei Methoden eingesetzt werden: <hi rend="italic">Polling</hi>
+            oder <hi rend="italic">Pushing</hi> (die Methode ist im Profil festgelegt). </p>
+          <p>Polling: Mit dem Auslösen des Exports durch die Benutzerinnen oder Benutzer werden die
+            Exportdaten in eine persistente Queue geschrieben. Von Seiten des Katalogs wird diese Queue
+            regelmäßig über einen REST-Service abgefragt. Die zu liefernden Daten werden entweder durch
+            Zeiteinschränkung oder eine laufende Nummer gefiltert. </p>
+          <p> Pushing: Mit dem Auslösen des Exports durch die Benutzerinnen oder Benutzer werden die
+            Exportdaten vom DA-3 an eine REST-Schnittstelle, die vom Kataloganbieter aufgesetzt werden muss,
+            geschickt. Falls der katalogseitige Dienst nicht läuft oder sich auf sonstige Weise fehlerhaft
+            verhält, werden die Exportdaten in eine Queue geschrieben. Der DA-3 versucht dann periodisch,
+            die gespeicherten Daten zu pushen. Der Vorteil dieser Methode besteht darin, dass der Zustand
+            des Katalogs, mit nur geringer Zeitverzögerung, die Erschließungsarbeit der Benutzerinnen und
+            Benutzer widerspiegelt. </p>
+        </div>
+        <div xml:id="appendix.5">
+          <head type="main">
+            <hi rend="italic">Exportformat</hi>
+          </head>
+          <p> Das Exportformat ist XML und besteht aus einer Liste von Datensätzen, jeweils identifiziert
+            durch die Systemnummer (PPN bei PICA-Systemen) und versehen mit dem Exportdatum und einer
+            laufenden Nummer. Die Darstellung der einzelnen Daten (GND, BK, ...) folgt MARCXML, allerdings
+            angereichert mit diversen Informationen wie z.B. der Herkunft (bei Daten, die aus Fremddaten
+            unverändert übernommen wurden). </p>
+        </div>
+      </div>
+      <div type="footnotes">
+        <list rend="ordered">
+          <head>Fußnoten</head>
+          <item n="1" xml:id="foot_1">IBS steht für Integriertes Bibliothekssystem. Ursprünglich ein Verbund
+            von 54 Universitäts-, Landes- und Hochschulbibliotheken in Baden-Württemberg, die die
+            Bibliothekssoftware aDIS/BMS benutzen, wurde das Konsortium Anfang 2018 auf alle Universitäts-,
+            Landes- und Hochschulbibliotheken von Baden-Württemberg ausgeweitet.</item>
+          <item n="2" xml:id="foot_2">Schäuble, Peter; Steenweg, Helge: Sacherschließung in der Zukunft? Der
+            Einsatz des Digitalen Assistenten V2 für die Sacherschließung im SWB, Vortrag beim LIS-Workshop,
+            16.03.2016, im Rahmen des 6. Bibliothekskongresses, 14.–17.03.2016, Leipzig, Vortragsfolien,
+              <ref target="https://doi.org/10.5445/IR/1000053077"
+              >https://doi.org/10.5445/IR/1000053077</ref>.<ref type="bibl" target="#schäuble16"/> Kurz
+            davor war der DA-2 auf der InetBib-Tagung 2016 in Stuttgart vorgestellt worden: Hinrichs, Imma:
+            Computerunterstützte Sacherschließung. Der Digitale Assistent BW für die Sacherschließung – V2,
+            Vortrag auf der 13. InetBib-Tagung, 10.–12.02.2016 in Stuttgart, Vortragsfolien, <ref
+              target="https://doi.org/10.17877/DE290R-17013"
+              >https://doi.org/10.17877/DE290R-17013</ref><ref type="bibl" target="#hinrichs16_1"/>.<p>Der
+              folgende Beitrag knüpft an den Aufsatz an: Hinrichs, Imma; Milmeister, Gérard; Schäuble,
+              Peter; Steenweg, Helge: Computerunterstützte Sacherschließung mit dem Digitalen Assistenten
+              (DA-2), in: o-bib 3 (4) 2016, S. 156–185, <ref
+                target="https://doi.org/10.5282/o-bib/2016H4S156-185"
+                >https://doi.org/10.5282/o-bib/2016H4S156-185</ref>.<ref type="bibl"
+                target="#hinrichs16_2"/></p></item>
+          <item n="3" xml:id="foot_3">Vgl. ebd. S. 170. Die "Ähnlichkeitssuche" erbrachte oftmals wenig
+            spezifische oder gar keine Ergebnisse. Daher wurde sie für den DA-3 bisher nicht
+            implementiert.</item>
+          <item n="4" xml:id="foot_4">Beispielhaft genannt seien hier die Nutzung des Karlsruher Virtuellen
+            Katalogs KVK und das sehr hilfreiche, webbasierte Tool "Malibu", das zuverlässig und
+            übersichtlich die RVK- und DDC Notationen und die GND-Verschlagwortung aus den deutschsprachigen
+            Verbundkatalogen sammelt und gebündelt anzeigt. Die Übernahme erfolgt jedoch noch händisch.
+            Universitätsbibliothek Mannheim: Unterstützungstool für Fachreferatsarbeit, <ref
+              target="http://data.bib.uni-mannheim.de/malibu/isbn/suche.html"
+              >http://data.bib.uni-mannheim.de/malibu/isbn/suche.html</ref>, Stand: 04.07.2019.</item>
+          <item n="5" xml:id="foot_5">Malits, Andrea; Schäuble, Peter: Der Digitale Assistent.
+            Halbautomatisches Verfahren der Sacherschließung in der Zentralbibliothek Zürich, in:
+            ABI-Technik 34 (3–4) 2014, S. 132–143. Online: <ref
+              target="https://doi.org/10.1515/abitech-2014-0024"
+              >https://doi.org/10.1515/abitech-2014-0024</ref>.<ref type="bibl" target="#malits14"
+            /></item>
+          <item n="6" xml:id="foot_6">Vgl. ausführlich Junger, Ulrike: Quo vadis Inhaltserschließung der
+            Deutschen Nationalbibliothek? Herausforderungen und Perspektiven, in: o-bib 2 (1) 2015, S.
+            15−26, <ref target="https://doi.org/10.5282/o-bib/2015H1S15-26"
+              >https://doi.org/10.5282/o-bib/2015H1S15-26</ref>.<ref type="bibl" target="#junger15"/>
+            Stumpf, Gerhard: "Kerngeschäft" Sacherschließung in neuer Sicht: Was gezielte intellektuelle
+            Arbeit und maschinelle Verfahren gemeinsam bewirken können, 16.02.2015, leicht überarbeiteter
+            Text eines Vortrags bei der VDB-Fortbildungsveranstaltung "Wandel als Konstante: neue Aufgaben
+            und Herausforderungen für sozialwissenschaftliche Bibliotheken" am 22./23. Januar 2015 in
+            Berlin, <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-30027"
+              >https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-30027</ref>.<ref type="bibl"
+              target="#stumpf15"/> Hinrichs u.a.: Computerunterstützte Sacherschließung mit dem Digitalen
+            Assistenten (DA-2), 2016, S. 156−159.</item>
+          <item n="7" xml:id="foot_7">Vgl. Junger, Ulrike; Schwens, Ute: Die inhaltliche Erschließung des
+            schriftlichen kulturellen Erbes auf dem Weg in die Zukunft. Automatische Vergabe von
+            Schlagwörtern in der Deutschen Nationalbibliothek, <ref
+              target="https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/inhaltlicheErschliessungZukunft.html"
+              >https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/inhaltlicheErschliessungZukunft.html</ref>,<ref
+              type="bibl" target="#junger19"/> Stand: 04.07.2019.</item>
+          <item n="8" xml:id="foot_8">Vgl. ebd. und Stumpf: "Kerngeschäft" Sacherschließung in neuer Sicht,
+            2015.</item>
+          <item n="9" xml:id="foot_9">Siehe Rubrik "Weitere Informationen", auf der DNB-Webseite "Erschließung
+            von Medienwerken", <ref
+              target="https://www.dnb.de/DE/Professionell/Erschliessen/erschliessen_node.html#doc210034bodyText5"
+              >https://www.dnb.de/DE/Professionell/Erschliessen/erschliessen_node.html#doc210034bodyText5</ref>,
+            Stand 04.07.2019.</item>
+          <item n="10" xml:id="foot_10">Zurzeit läuft auf Initiative der AG K10plus Sacherschließung eine
+            aktuelle Umfrage zu den Sacherschließungsleistungen und -verfahren der einzelnen
+            K10plus-Bibliotheken. Ziel dieses Überblicks ist es, Kooperationsmöglichkeiten zu identifizieren
+            und die verteilte Inhaltserschließung zu verbessern.</item>
+          <item n="11" xml:id="foot_11">Vorndran, Angela: Hervorholen, was in unseren Daten steckt! Mehrwerte
+            durch Analysen großer Bibliotheksdatenbestände, in: o-bib 5 (4) 2018, S. 166−180, <ref
+              target="https://doi.org/10.5282/o-bib/2018H4S166-180"
+              >https://doi.org/10.5282/o-bib/2018H4S166-180</ref>.<ref type="bibl" target="#vorndran18"/>
+            Pfeffer, Magnus: Using Clustering Across Union Catalogues to Enrich Entries with Indexing
+            Information, in: Spiliopoulou, Myra, Schmidt-Thieme, Lars, Janning, Ruth: Data Analysis, Machine
+            Learning and Knowledge Discovery − Proceedings of the 36th Annual Conference of the Gesellschaft
+            für Klassifikation e.V. in Hildesheim, Germany, Berlin, 2013, S. 437−445.<ref type="bibl"
+              target="#pfeffer13"/> Wiesenmüller, Heidrun; Pfeffer, Magnus: Abgleichen, anreichern,
+            verknüpfen: das Clustering-Verfahren – eine neue Möglichkeit für die Analyse und Verbesserung
+            von Katalogdaten, in: BuB Forum Bibliothek und Information 65 (9), 2013, S. 625–629.<ref
+              type="bibl" target="#wiesemüller13"/> In K10plus ist eine routinemäßige Synchronisation
+            geplant, vgl. E-Books, 22.03.2019, (K10plus Katalogisierungshandbücher), <ref
+              target="https://opus.k10plus.de/frontdoor/deliver/index/docId/428/file/K10plus_E-Books.pdf"
+              >https://opus.k10plus.de/frontdoor/deliver/index/docId/428/file/K10plus_E-Books.pdf</ref>,
+            S. 30 ff., Stand: 04.07.2019.<ref type="bibl" target="#k10plus19"/></item>
+          <item n="12" xml:id="foot_12">Vgl. Hinrichs u.a.: Computerunterstützte Sacherschließung mit dem
+            Digitalen Assistenten (DA-2), 2016.</item>
+          <item n="13" xml:id="foot_13">Deutsche Nationalbibliothek: Grundzüge und erste Schritte der
+            künftigen inhaltlichen Erschließung von Publikationen in der Deutschen Nationalbibliothek, Stand
+            Mai 2017, <ref
+              target="https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/konzeptWeiterentwicklungInhaltserschliessung.html"
+              >https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/konzeptWeiterentwicklungInhaltserschliessung.html</ref>,
+            Stand: 04.07.2019.<ref type="bibl" target="#dnb19"/></item>
+          <item n="14" xml:id="foot_14">Vgl. Standardisierungsausschuss, Initiativgruppe: Stellungnahme zur
+            Entwicklung der Inhaltserschließung im D-A-CH Raum, 18.06.2018, <ref
+              target="https://www.vdb-online.org/wordpress/wp-content/uploads/2018/06/Stellungnahme_IE_D-A-CH-Raum.pdf"
+              >https://www.vdb-online.org/wordpress/wp-content/uploads/2018/06/Stellungnahme_IE_D-A-CH-Raum.pdf</ref>,
+            Stand: 04.07.2019.<ref type="bibl" target="#sa19"/></item>
+          <item n="15" xml:id="foot_15">Vgl. <ref
+              target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/portraet/"
+              >https://staatsbibliothek-berlin.de/die-staatsbibliothek/portraet/</ref>, Stand:
+            11.08.2019.</item>
+          <item n="16" xml:id="foot_16">Beckmann, Regine: Die Guten ins Töpfchen. Der "Digitale Assistent 2",
+            Vortrag am 12.09.2017 vor der Kommission für Sacherschließung im Rahmen des 33. Österreichischen
+            Bibliothekartags in Linz, 12.−15.09.2017, Vortragsfolien, <ref
+              target="https://nbn-resolving.org/urn:nbn:de:0290-opus4-32680"
+              >https://nbn-resolving.org/urn:nbn:de:0290-opus4-32680</ref>.<ref type="bibl"
+              target="#beckmann17"/></item>
+          <item n="17" xml:id="foot_17">K10plus, <ref target="https://www.bszgbv.de/services/k10plus/"
+              >https://www.bszgbv.de/services/k10plus/</ref>, Stand: 04.07.2019.</item>
+          <item n="18" xml:id="foot_18">Im Vorgänger DA-2 wurden Daten von Titeln gespeichert, sobald eine
+            Anwenderbibliothek diese erworben hatte.</item>
+          <item n="19" xml:id="foot_19">Für den DA-2 vgl. Hinrichs u.a. Computerunterstützte Sacherschließung
+            mit dem Digitalen Assistenten (DA-2), 2016, S. 165; für den DA-3 vgl. in diesem Aufsatz den
+            Anhang "Einblick in die Technik".</item>
+          <item n="20" xml:id="foot_20">Die Benennung der einzelnen Fenster wird im Verlauf der
+            Weiterentwicklung ggf. noch angepasst.</item>
+          <item n="21" xml:id="foot_21">WebGND von Eurospider bietet die GND voll recherchierbar unter einer
+            Weboberfläche frei zugänglich an: WebGND, <ref target="http://gnd.eurospider.com"
+              >http://gnd.eurospider.com</ref>, Stand: 04.07.2019.</item>
+          <item n="22" xml:id="foot_22">Standard-Thesaurus Wirtschaft, Version 9.06, <ref
+              target="https://zbw.eu/stw/version/latest/about.de.html"
+              >https://zbw.eu/stw/version/latest/about.de.html</ref>, Stand 04.07.2019. EconBiz, <ref
+              target="https://www.econbiz.de/">https://www.econbiz.de/</ref>, Stand: 04.07.2019.</item>
+          <item n="23" xml:id="foot_23">Vgl. Regensburger Verbundklassifikation − Teilnehmende Bibliotheken,
+            Stand: 09.04.2019, <ref
+              target="https://rvk.uni-regensburg.de/images/stories/Teilnehmer/teilnehmer"
+              >https://rvk.uni-regensburg.de/images/stories/Teilnehmer/teilnehmer</ref>, Stand:
+            04.07.2019.</item>
+          <item n="24" xml:id="foot_24">Basisklassifikation, Stand: 03/2019, <ref
+              target="https://www.gbv.de/bibliotheken/verbundbibliotheken/02Verbund/01Erschliessung/02Richtlinien/05Basisklassifikation/index"
+              >https://www.gbv.de/bibliotheken/verbundbibliotheken/02Verbund/01Erschliessung/02Richtlinien/05Basisklassifikation/index</ref>,
+            Stand: 04.07.2019. Die aktuelle Zahl der Klassen wird unter "Allgemeine, fächerübergreifende
+            Anwendungsrichtlinien" genannt: Anwendungsrichtlinien zur Basisklassifikation, <ref
+              target="https://www.gbv.de/bibliotheken/verbundbibliotheken/02Verbund/01Erschliessung/02Verbund/01Erschliessung/05Sacherschliessung/05Sacherschliessung_4289"
+              >https://www.gbv.de/bibliotheken/verbundbibliotheken/02Verbund/01Erschliessung/02Verbund/01Erschliessung/05Sacherschliessung/05Sacherschliessung_4289</ref>,
+            Stand: 04.07.2019.</item>
+          <item n="25" xml:id="foot_25">Die IxTheo-Klassifikation steht online in der Fachdatenbank "Index
+            Theologicus" zur Verfügung: IxTheo-Klassifikation, Index Theologicus. Internationale
+            Bibliographie für Theologie und Religionswissenschaft, <ref
+              target="https://www.ixtheo.de/IxTheoClassification"
+              >https://www.ixtheo.de/IxTheoClassification</ref>, Stand: 04.07.2019.</item>
+          <item n="26" xml:id="foot_26">Erläuterung zu den Abkürzungen: B3Kat: Gemeinsamer Katalog von BVB und
+            KOBV; swissbib: Katalog aller Schweizer Hochschulbibliotheken, der Schweizerischen
+            Nationalbibliothek, zahlreicher Kantonsbibliotheken und weiterer schweizerischer Institutionen;
+            OBV: Verbund der wissenschaftlichen und administrativen Bibliotheken Österreichs; LoC: Library
+            of Congress; BnF: Bibliothèque Nationale de France.</item>
+          <item n="27" xml:id="foot_27">In der SBB erfolgt die Sacherschließung arbeitsteilig durch die
+            Fachreferate, die Sonderabteilungen und das Referat Sacherschließung. Dieses nimmt eine
+            abteilungsübergreifende, koordinierende Funktion im Sacherschließungsgeschäftsgang der SBB
+            bezüglich der Umsetzung der Regelwerke und der Qualitätskontrolle wahr und stellt eine der drei
+            GND Redaktionen im GBV. Die Gesamtkoordination und Weiterentwicklung der Sacherschließung liegt
+            in der Verantwortung einer Stabsstelle.</item>
+          <item n="28" xml:id="foot_28">Ein sogenannter Hinweissatz in der GND weist darauf hin, dass ein
+            bestimmter Sachbegriff keinen eigenen Normdatensatz erhält, sondern durch die Kombination
+            mehrerer Schlagwörter ausgedrückt wird. Bsp.: Statt "Flussgebiet" werden die Schlagwörter
+            "Fluss" und "Einzugsgebiet" vergeben.</item>
+          <item n="29" xml:id="foot_29">Neben den K10plus-Bibliotheken haben weitere Verbünde Interesse
+            geäußert. Im OBV wird der DA-3 zeitnah produktiv eingesetzt.</item>
+          <item n="30" xml:id="foot_30">Zu den Qualitätsdimensionen inhaltlicher Erschließung vgl. ausführlich
+            und grundlegend: Franke-Maier, Michael: Anforderungen an die Qualität der Inhaltserschließung im
+            Spannungsfeld von intellektuell und automatisch erzeugten Metadaten, in: ABI Technik 38 (4)
+            2018, S. 328. Online: <ref target="https://doi.org/10.1515/abitech-2018-4005"
+              >https://doi.org/10.1515/abitech-2018-4005</ref>. <ref type="bibl" target="#franke-maier18"
+            /></item>
+          <item n="31" xml:id="foot_31">ebd. S. 330.</item>
+          <item n="32" xml:id="foot_32">ebd. S. 329.</item>
+          <item n="33" xml:id="foot_33">ebd. S. 329. Franke-Maier weist zu Recht auf den Anspruch qualitativ
+            hochwertiger Erschließung hin, nicht nur ähnlichkeitsbasiert zu denken, sondern die inhaltlichen
+            Unterschiede zwischen den Publikationen herauszuarbeiten.</item>
+        </list>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <head>Literaturverzeichnis</head>
+          <bibl xml:id="beckmann17">Beckmann, Regine: Die Guten ins Töpfchen. Der <name>Digitale Assistent
+              2</name>, Vortrag am 12.09.2017 vor der Kommission für Sacherschließung im Rahmen des 33.
+            Österreichischen Bibliothekartags in Linz, 12.−15.09.2017, Vortragsfolien, <ref
+              target="https://nbn-resolving.org/urn:nbn:de:0290-opus4-32680"
+              >https://nbn-resolving.org/urn:nbn:de:0290-opus4-32680</ref>.</bibl>
+          <bibl xml:id="dnb19">Deutsche Nationalbibliothek: Grundzüge und erste Schritte der künftigen
+            inhaltlichen Erschließung von Publikationen in der Deutschen Nationalbibliothek, Stand Mai 2017,
+              <ref
+              target="https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/konzeptWeiterentwicklungInhaltserschliessung.html"
+              >https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/konzeptWeiterentwicklungInhaltserschliessung.html</ref>,
+            Stand: 04.07.2019.</bibl>
+          <bibl xml:id="k10plus19">E-Books, 22.03.2019, (K10plus Katalogisierungshandbücher), <ref
+              target="https://opus.k10plus.de/frontdoor/deliver/index/docId/428/file/K10plus_E-Books.pdf"
+              >https://opus.k10plus.de/frontdoor/deliver/index/docId/428/file/K10plus_E-Books.pdf</ref>,
+            Stand: 04.07.2019.</bibl>
+          <bibl xml:id="franke-maier18">Franke-Maier, Michael: Anforderungen an die Qualität der
+            Inhaltserschließung im Spannungsfeld von intellektuell und automatisch erzeugten Metadaten, in:
+            ABI Technik 38 (4) 2018, S. 327−331. Online: <ref
+              target="https://doi.org/10.1515/abitech-2018-4005"
+              >https://doi.org/10.1515/abitech-2018-4005</ref>.</bibl>
+          <bibl xml:id="hinrichs16_1">Hinrichs, Imma: Computerunterstützte Sacherschließung. Der Digitale
+            Assistent BW für die Sacherschließung – V2, Vortrag auf der 13. InetBib-Tagung, 10.–12.02.2016
+            in Stuttgart, Vortragsfolien, <ref target="https://doi.org/10.17877/DE290R-17013"
+              >https://doi.org/10.17877/DE290R-17013</ref>.</bibl>
+          <bibl xml:id="hinrichs16_2">Hinrichs, Imma; Milmeister, Gérard; Schäuble, Peter; Steenweg, Helge:
+            Computerunterstützte Sacherschließung mit dem Digitalen Assistenten (DA-2), in: o-bib 3 (4)
+            2016, S. 156–185, <ref target="https://doi.org/10.5282/o-bib/2016H4S156-185"
+              >https://doi.org/10.5282/o-bib/2016H4S156-185</ref>.</bibl>
+          <bibl xml:id="junger15">Junger, Ulrike: Quo vadis Inhaltserschließung der Deutschen
+            Nationalbibliothek? Herausforderungen und Perspektiven, in: o-bib 2 (1) 2015, S. 15−26, <ref
+              target="https://doi.org/10.5282/o-bib/2015H1S15-26"
+              >https://doi.org/10.5282/o-bib/2015H1S15-26</ref>.</bibl>
+          <bibl xml:id="junger19">Junger, Ulrike; Schwens, Ute: Die inhaltliche Erschließung des schriftlichen
+            kulturellen Erbes auf dem Weg in die Zukunft. Automatische Vergabe von Schlagwörtern in der
+            Deutschen Nationalbibliothek, <ref
+              target="https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/inhaltlicheErschliessungZukunft.html"
+              >https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Erschliessen/inhaltlicheErschliessungZukunft.html</ref>,
+            Stand: 04.07.2019.</bibl>
+          <bibl xml:id="malits14">Malits, Andrea; Schäuble, Peter: Der Digitale Assistent. Halbautomatisches
+            Verfahren der Sacherschließung in der Zentralbibliothek Zürich, in: ABI-Technik 34 (3−4) 2014,
+            S. 132–143. Online: <ref target="https://doi.org/10.1515/abitech-2014-0024"
+              >https://doi.org/10.1515/abitech-2014-0024</ref>.</bibl>
+          <bibl xml:id="pfeffer13">Pfeffer, Magnus: Using Clustering Across Union Catalogues to Enrich Entries
+            with Indexing Information, in: Spiliopoulou, Myra, Schmidt-Thieme, Lars, Janning, Ruth: Data
+            Analysis, Machine Learning and Knowledge Discovery − Proceedings of the 36th Annual Conference
+            of the Gesellschaft für Klassifikation e.V. in Hildesheim, Germany, Berlin, 2013, S.
+            437−445.</bibl>
+          <bibl xml:id="schäuble16">Schäuble, Peter; Steenweg, Helge: Sacherschließung in der Zukunft? Der
+            Einsatz des Digitalen Assistenten V2 für die Sacherschließung im SWB, Vortrag beim LIS-Workshop,
+            16.03.2016, im Rahmen des 6. Bibliothekskongresses, 14.–17.03.2016, Leipzig, Vortragsfolien,
+              <ref target="https://doi.org/10.5445/IR/1000053077"
+              >https://doi.org/10.5445/IR/1000053077</ref>.</bibl>
+          <bibl xml:id="sa19">Standardisierungsausschuss, Initiativgruppe: Stellungnahme zur Entwicklung der
+            Inhaltserschließung im D-A-CH Raum, 18.06.2018, <ref
+              target="https://www.vdb-online.org/wordpress/wp-content/uploads/2018/06/Stellungnahme_IE_D-A-CH-Raum.pdf"
+              >https://www.vdb-online.org/wordpress/wp-content/uploads/2018/06/Stellungnahme_IE_D-A-CH-Raum.pdf</ref>,
+            Stand: 04.07.2019.</bibl>
+          <bibl xml:id="stumpf15">Stumpf, Gerhard: <term>Kerngeschäft</term> Sacherschließung in neuer Sicht:
+            Was gezielte intellektuelle Arbeit und maschinelle Verfahren gemeinsam bewirken können,
+            16.02.2015, leicht überarbeiteter Text eines Vortrags bei der VDB-Fortbildungsveranstaltung
+              <name>Wandel als Konstante: neue Aufgaben und Herausforderungen für sozialwissenschaftliche
+              Bibliotheken</name> am 22./23. Januar 2015 in Berlin, <ref
+              target="https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-30027"
+              >https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-30027</ref>.</bibl>
+          <bibl xml:id="vorndran18">Vorndran, Angela: Hervorholen, was in unseren Daten steckt! Mehrwerte
+            durch Analysen großer Bibliotheksdatenbestände, in: o-bib 5 (4) 2018, S. 166−180, <ref
+              target="https://doi.org/10.5282/o-bib/2018H4S166-180"
+              >https://doi.org/10.5282/o-bib/2018H4S166-180</ref>.</bibl>
+          <bibl xml:id="wiesemüller13">Wiesenmüller, Heidrun; Pfeffer, Magnus: <title type="main">Abgleichen, anreichern,
+            verknüpfen</title>: das Clustering-Verfahren – eine neue Möglichkeit für die Analyse und Verbesserung
+            von Katalogdaten, in: BuB Forum Bibliothek und Information 65 (9), 2013, S. 625–629.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

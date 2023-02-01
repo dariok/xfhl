@@ -1,0 +1,1414 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div> 
+    <head>
+        <milestone unit="line"/><lb/><pb facs="#antwerpen_4" n="A1r"/>
+        <choice><orig>ℂ</orig><reg/></choice> Religioens <choice><orig>vꝛede</orig><reg>vrede</reg></choice>
+    </head>
+    <p xml:id="p001" corresp="antwerpener_religionsfrieden_dt.xml#p001">
+        <milestone unit="line"/><lb/>
+        <seg type="crit_app"><choice><orig><hi rend="initiale">J</hi>N</orig><reg>In</reg></choice> den <choice><orig>Eerſtē</orig><reg>Eersten</reg></choice> is elc kenlic</seg>
+        <note type="crit_app"><bibl>
+            <ref type="bibl" target="#schrevel_recueil_1">
+                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 492, Z. 1</bibl>: Elcken es ghenouch kennelyck.</note> dat de <choice><orig>Tijranniſche</orig><reg>Tijrannische</reg></choice> <choice><orig><w>placca
+                    <milestone unit="line"/>
+                                <lb rend="trennstrich"/>tē</w>
+                        </orig>
+                        <reg>
+                            <w>placca<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ten</w>
+                        </reg>
+                    </choice> eertijts gemaect op tfaict <choice>
+                        <orig>vāde</orig>
+                        <reg>vande</reg>
+                    </choice> Religie<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>dooꝛ</orig>
+                        <reg>door</reg>
+                    </choice> <choice>
+                        <orig>tingeuē</orig>
+                        <reg>tingeven</reg>
+                    </choice> Raet <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice>
+ <milestone unit="line"/>
+                    <lb/>toe doen vande <choice>
+                        <orig>vꝛēde</orig>
+                        <reg>vremde</reg>
+                    </choice> <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> <choice>
+                        <orig>ſonderlinge</orig>
+                        <reg>sonderlinge</reg>
+                    </choice> <choice>
+                        <orig>vāde</orig>
+                        <reg>vande</reg>
+                    </choice> <choice>
+                        <orig>Spanſche</orig>
+                        <reg>Spansche</reg>
+                    </choice> Natie<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>
+                            <w>ſon
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>der</w>
+                        </orig>
+                        <reg>
+                            <w>son<milestone unit="line"/>
+                                <lb rend="trennstrich"/>der</w>
+                        </reg>
+                    </choice> de <choice>
+                        <orig>Statē</orig>
+                        <reg>Staten</reg>
+                    </choice> des Lants daer op te <choice>
+                        <orig>hooꝛen</orig>
+                        <reg>hooren</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> tzichtent met <choice>
+                        <orig>lancx</orig>
+                        <reg>langs</reg>
+                    </choice>
+                    <note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 3</bibl>: onlancx.</note>
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>ſo</orig>
+                        <reg>so</reg>
+                    </choice> meer<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> rigieur <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> <choice>
+                        <orig>onuerdꝛagelijcke</orig>
+                        <reg>onverdragelijcke</reg>
+                    </choice> <choice>
+                        <orig>ſtraffheyt</orig>
+                        <reg>straffheyt</reg>
+                    </choice> <choice>
+                        <orig>onderhoudē</orig>
+                        <reg>onderhouden</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>ooꝛ
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ſpꝛonc</w>
+                        </orig>
+                        <reg>
+                            <w>oor<milestone unit="line"/>
+                                <lb rend="trennstrich"/>spronc</w>
+                        </reg>
+                    </choice> zijn <choice>
+                        <orig>vā</orig>
+                        <reg>van</reg>
+                    </choice> alle <choice>
+                        <orig>onſe</orig>
+                        <reg>onse</reg>
+                    </choice> <choice>
+                        <orig>tegenwooꝛdige</orig>
+                        <reg>tegenwoordige</reg>
+                    </choice> <choice>
+                        <orig>ſwaricheidē</orig>
+                        <reg>swaricheiden</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> als ten <choice>
+                        <orig>
+                            <w>occa
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ſien</w>
+                        </orig>
+                        <reg>
+                            <w>occa<milestone unit="line"/>
+                                <lb rend="trennstrich"/>sien</w>
+                        </reg>
+                    </choice> van dien in meniger<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 6</bibl>: eenigher.</note> manieren des <choice>
+                        <orig>ſlandts</orig>
+                        <reg>slandts</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>Pꝛeuilegien</orig>
+                        <reg>Previlegien</reg>
+                    </choice>
+                    <supplied>,</supplied> Rechten <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> <w>loffe
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>lijcke</w> <choice>
+                        <orig>coſtumen</orig>
+                        <reg>costumen</reg>
+                    </choice> <choice>
+                        <orig>verbꝛoken</orig>
+                        <reg>verbroken</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> onder den Voet <choice>
+                        <orig>gebꝛocht</orig>
+                        <reg>gebrocht</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice>
+                    <note type="crit_app">Fehlt <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 8</bibl>.</note> hendelinge eenen
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>Jāmerlijcken</orig>
+                        <reg>Jammerlijcken</reg>
+                    </choice> Krijch <choice>
+                        <orig>verooꝛſaect</orig>
+                        <reg>veroorsaect</reg>
+                    </choice> zijnde. Angenomen<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 10</bibl>: <hi rend="italic">danach folgend</hi> zynde.</note> by de vyanden des <w>Va
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>derlants</w> tot <choice>
+                        <orig>onſer</orig>
+                        <reg>onser</reg>
+                    </choice> <choice>
+                        <orig>wterſte</orig>
+                        <reg>uuterste</reg>
+                    </choice> <choice>
+                        <orig>Slauernije</orig>
+                        <reg>Slavernije</reg>
+                    </choice> ende <choice>
+                        <orig>verderffeniſſe</orig>
+                        <reg>verderffenisse</reg>
+                    </choice>. Ende <choice>
+                        <orig>alſoo</orig>
+                        <reg>alsoo</reg>
+                    </choice> daer
+<milestone unit="line"/>
+                    <lb/>tegens gheen ander Remedie en was<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> dan comende by alle de <choice>
+                        <orig>Pꝛouincien</orig>
+                        <reg>Provincien</reg>
+                    </choice> van
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>herwaertſouere</orig>
+                        <reg>herwaertsovere</reg>
+                    </choice> in een verbont<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice> is daer <choice>
+                        <orig>wt</orig>
+                        <reg>uut</reg>
+                    </choice> <choice>
+                        <orig>gheſpꝛoiten</orig>
+                        <reg>ghesproiten</reg>
+                    </choice>
+                    <note type="crit_app">Korrigiert aus: <choice>
+                            <orig>gheſpꝛoꝛten</orig>
+                            <reg>ghesprorten</reg>
+                        </choice>.</note> die <choice>
+                        <orig>Paſificatie</orig>
+                        <reg>Pasificatie</reg>
+                    </choice> van 
+<milestone unit="line"/>
+                    <lb/>Ghent<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> die welcke naer <choice>
+                        <orig>diuerſche</orig>
+                        <reg>diversche</reg>
+                    </choice> deliberatien ende <choice>
+                        <orig>conſultatie</orig>
+                        <reg>consultatie</reg>
+                    </choice> daer op <w>gheno
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>men</w>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice> wel by die <choice>
+                        <orig>Biſſchoppen</orig>
+                        <reg>Bisschoppen</reg>
+                    </choice>
+                    <supplied>,</supplied> Theologien<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> als by den Rade van Staten<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>ende andere van <choice>
+                        <orig>herwaertſouere</orig>
+                        <reg>herwaertsovere</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>gheappꝛobeert</orig>
+                        <reg>gheapprobeert</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> geconfirmeert<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ende by <w>pub
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>lique</w> (solemnelen<note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 19</bibl> aus: <choice>
+                            <orig>ſolemperneie</orig>
+                            <reg>solemperneie</reg>
+                        </choice>.</note>)<note type="crit_app">Ohne Klammer <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 19</bibl>.</note> Eede <choice>
+                        <orig>beſwooꝛen</orig>
+                        <reg>beswooren</reg>
+                    </choice> is <choice>
+                        <orig>gheweſt</orig>
+                        <reg>ghewest</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> niet alleenlijck by die <w>Sta
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>ten</w> van alle <choice>
+                        <orig>deſe</orig>
+                        <reg>dese</reg>
+                    </choice> <rs type="place" ref="#niederlande">Nederlanden</rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>Gheeſtelijck</orig>
+                        <reg>Gheestelijck</reg>
+                    </choice> ende <choice>
+                        <sic>waerlijck</sic>
+                        <corr>wereldlijk</corr>
+                    </choice> int generaele <w>en
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>de</w> perticuliere<choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> Maer<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 22</bibl>: nemaer [!].</note> oock by <seg type="crit_app">
+                        <rs type="person" ref="#johann_oesterreich">Don Johan van <choice>
+                                <orig>Ooſtenrijck</orig>
+                                <reg>Oostenrijck</reg>
+                            </choice>
+                        </rs>
+                    </seg>
+                    <note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 22</bibl>: don Jehan.</note> <choice>
+                        <orig>wt</orig>
+                        <reg>uut</reg>
+                    </choice> den Name 
+<milestone unit="line"/>
+                    <lb/>vanden <rs type="person" ref="#philipp_ii">May<am>.</am>
+                        <ex>esteyt</ex>
+                    </rs> Maeckende <choice>
+                        <orig>accooꝛt</orig>
+                        <reg>accoort</reg>
+                    </choice> metten <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> Staten<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ten aflegge <w>van
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>den</w> <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> Krijch<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ende alle andere <choice>
+                        <orig>Jnconuenienten</orig>
+                        <reg>Inconvenienten</reg>
+                    </choice>. Ende hoe wel wy <w>ver
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>hoept</w> hadden dat inde <choice>
+                        <orig>onderhoudeniſſe</orig>
+                        <reg>onderhoudenisse</reg>
+                    </choice> van dien gheen faute en <choice>
+                        <orig>ſoude</orig>
+                        <reg>soude</reg>
+                    </choice> <choice>
+                        <orig>geweſt</orig>
+                        <reg>gewest</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>hebben<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> van wegen den <choice>
+                        <orig>vooꝛnoemden</orig>
+                        <reg>voornoemden</reg>
+                    </choice> <rs type="person" ref="#johann_oesterreich">Don Johan</rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> wiens Officie <choice>
+                        <orig>
+                            <w>ſonderlin
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ghe</w>
+                        </orig>
+                        <reg>
+                            <w>sonderlin<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ghe</w>
+                        </reg>
+                    </choice> was als ghecommiteert zijnde<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 28</bibl>: <hi rend="italic">danach folgend</hi> tot.</note>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>Goeuernement</orig>
+                        <reg>Goevernement</reg>
+                    </choice> ende goede directie vande 
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> <rs type="place" ref="#niederlande">Nederlanden</rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> de <choice>
+                        <orig>ſelue</orig>
+                        <reg>selve</reg>
+                    </choice> in <seg type="crit_app">
+                        <choice>
+                            <orig>Payſe</orig>
+                            <reg>Payse</reg>
+                        </choice> ende <choice>
+                            <orig>Vꝛeede</orig>
+                            <reg>Vreede</reg>
+                        </choice>
+                    </seg>
+                    <note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 29</bibl>: vrede payse.</note> ende Tranquiliteyt toe 
+<milestone unit="line"/>
+                    <lb/>onderhoudene<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> niete min doende ter contrarien hadde die <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> Pacificatie
+<milestone unit="line"/>
+                    <lb/>in veelderhande Poincten <choice>
+                        <orig>gebꝛoken</orig>
+                        <reg>gebroken</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ende<note type="crit_app">Fehlt <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 32</bibl>.</note> by <choice>
+                        <orig>diuerſche</orig>
+                        <reg>diversche</reg>
+                    </choice> <choice>
+                        <orig>ſaecken</orig>
+                        <reg>saecken</reg>
+                    </choice> betoocht <w>con
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>trarie</w> zijnen Eedt<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> dat hy hem daer aen niet houden en wilde<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice> dat <w>weder
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>omme</w> de <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> <choice>
+                        <orig>Ooꝛloghe</orig>
+                        <reg>Oorloghe</reg>
+                    </choice> by hem vernieuwet is <choice>
+                        <orig>gheweſt</orig>
+                        <reg>ghewest</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> de ons gedwongen 
+<milestone unit="line"/>
+                    <lb/>heeft tot <choice>
+                        <orig>conſeruatie</orig>
+                        <reg>conservatie</reg>
+                    </choice> van <choice>
+                        <orig>onſe</orig>
+                        <reg>onse</reg>
+                    </choice> Natuerale Liberteyt<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> die<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 36</bibl>: ende.</note> <choice>
+                        <orig>beſchermeniſſe</orig>
+                        <reg>beschermenisse</reg>
+                    </choice> ende
+<milestone unit="line"/>
+                    <lb/>wapenen <choice>
+                        <orig>eentſamelijck</orig>
+                        <reg>eentsamelijck</reg>
+                    </choice> weder aen te nemen<choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>weſende</orig>
+                        <reg>wesende</reg>
+                    </choice> oock by dien ende <choice>
+                        <orig>dooꝛ</orig>
+                        <reg>door</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>de <choice>
+                        <sic>extermiteyten</sic>
+                        <corr>extremiteyten</corr>
+                    </choice> daer inne ons de<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 38</bibl>: <hi rend="italic">danach folgend</hi> zelve.</note> <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> <choice>
+                        <orig>Ooꝛloghe</orig>
+                        <reg>Oorloghe</reg>
+                    </choice> 
+<milestone type="ref" unit="section" xml:id="crit1"/>(Moeder van alle <choice>
+                        <orig>
+                            <w>deſor<milestone unit="line"/>
+                                <lb rend="trennstrich"/>dꝛen</w>
+                        </orig>
+                        <reg>
+                            <w>desor<milestone unit="line"/>
+                                <lb rend="trennstrich"/>dren</w>
+                        </reg>
+                    </choice>
+                    <note type="crit_app">Korrigiert aus: <choice>
+                            <orig>de ſor|dꝛen</orig>
+                            <reg>de sor|dren</reg>
+                        </choice>.</note> ende <choice>
+                        <orig>Jncomuenienten</orig>
+                        <reg>Inconvenienten</reg>
+                    </choice>
+                    <choice>
+                        <orig/>
+                        <reg>)</reg>
+                    </choice> <choice>
+                        <orig>ghebꝛocht</orig>
+                        <reg>ghebrocht</reg>
+                    </choice> heeft<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> bedwonghen<choice>
+                        <orig>)</orig>
+                        <reg/>
+                    </choice>
+<milestone type="ref" unit="section" xml:id="crit2"/>
+                    <span type="crit_app" from="#crit1" to="#crit2">Ohne Klammer <rs type="bibl">
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 493, Z. 39 bis S. 494, Z. 1</rs>.</span> te doene ende <w>ge
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>dooghene</w>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> teghens <choice>
+                        <orig>onſen</orig>
+                        <reg>onsen</reg>
+                    </choice> danck ende goede<note type="crit_app">Fehlt <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 2</bibl>.</note> meninghe<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>diuerſche</orig>
+                        <reg>diversche</reg>
+                    </choice> <choice>
+                        <orig>ſaecken</orig>
+                        <reg>saecken</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>Pre
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>iudiciable</w>
+                        </orig>
+                        <reg>
+                            <w>Pre<milestone unit="line"/>
+                                <lb rend="trennstrich"/>judiciable</w>
+                        </reg>
+                    </choice>
+                    <note type="crit_app">Korrigiert nach<bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 3</bibl> aus: <choice>
+                            <orig>Preiudiciale</orig>
+                            <reg>Prejudiciale</reg>
+                        </choice>.</note> der Religie ende <choice>
+                        <orig>gehooꝛſaemheyt</orig>
+                        <reg>gehoorsaemheyt</reg>
+                    </choice> van zijne <rs type="person" ref="#philipp_ii">May<am>.</am>
+                        <ex>esteyt</ex>
+                    </rs> Die wy niet en
+<milestone unit="line"/>
+                    <lb/>hadden willen anders <choice>
+                        <orig>peynſen</orig>
+                        <reg>peynsen</reg>
+                    </choice> ende tegenwoordelijck niet en connen beletten<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice> wy ten <choice>
+                        <orig>diuerſchen</orig>
+                        <reg>diverschen</reg>
+                    </choice> <choice>
+                        <orig>ſtonden</orig>
+                        <reg>stonden</reg>
+                    </choice> <choice>
+                        <orig>vooꝛt</orig>
+                        <reg>voort</reg>
+                    </choice> aen <choice>
+                        <orig>gaen·</orig>
+                        <reg>gaen</reg>
+                    </choice> van <choice>
+                        <orig>deſe</orig>
+                        <reg>dese</reg>
+                    </choice> Oorloghe hebben <w>ver
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>toocht</w> ende <choice>
+                        <orig>ghepꝛoteſteert</orig>
+                        <reg>gheprotesteert</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>ſo</orig>
+                        <reg>so</reg>
+                    </choice> wel by <choice>
+                        <orig>Bꝛieuen</orig>
+                        <reg>Brieven</reg>
+                    </choice> als <choice>
+                        <orig>Ambaſſadeurs</orig>
+                        <reg>Ambassadeurs</reg>
+                    </choice>
+                    <note type="crit_app">Korrigiert aus: <choice>
+                            <orig>Ambaſſaduers</orig>
+                            <reg>Ambassaduers</reg>
+                        </choice>.</note> <choice>
+                        <orig>gheſonden</orig>
+                        <reg>ghesonden</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>aen zijn <rs type="person" ref="#philipp_ii">May<am>.</am>
+                        <ex>esteyt</ex>
+                    </rs> Ende oock aenden <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> <rs type="person" ref="#johann_oesterreich">Don Johan</rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> ende al <choice>
+                        <orig>iſt</orig>
+                        <reg>ist</reg>
+                    </choice> <choice>
+                        <orig>ſo</orig>
+                        <reg>so</reg>
+                    </choice> dat ons
+<milestone unit="line"/>
+                    <lb/>noch macht noch wille tot <choice>
+                        <orig>onſe</orig>
+                        <reg>onse</reg>
+                    </choice> <choice>
+                        <orig>vooꝛſ</orig>
+                        <reg>voors</reg>
+                    </choice>
+                    <am>z.</am>
+                    <ex>creven</ex> <choice>
+                        <orig>beſcherminghe</orig>
+                        <reg>bescherminghe</reg>
+                    </choice> en <choice>
+                        <orig>gebꝛeeckt</orig>
+                        <reg>gebreeckt</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>.</reg>
+                    </choice> nochtans
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>alſo</orig>
+                        <reg>also</reg>
+                    </choice> de <choice>
+                        <orig>diuerſiteytē</orig>
+                        <reg>diversiteyten</reg>
+                    </choice> vande <choice>
+                        <orig>Pꝛouinciē</orig>
+                        <reg>Provincien</reg>
+                    </choice> <choice>
+                        <orig>en̄</orig>
+                        <reg>ende</reg>
+                    </choice> vande <choice>
+                        <orig>mēſchelick</orig>
+                        <reg>menschelick</reg>
+                    </choice> Opinien<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 12</bibl>: <hi rend="italic">danach folgend</hi> dat stuck.</note> <choice>
+                        <orig>ſeere</orig>
+                        <reg>seere</reg>
+                    </choice> <w>ver 
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>achten</w>
+                    <choice>
+                        <orig>.</orig>
+                        <reg/>
+                    </choice> So <choice>
+                        <orig>iſt</orig>
+                        <reg>ist</reg>
+                    </choice> te duchten dat<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 13</bibl>: noch.</note> <choice>
+                        <orig>onſen</orig>
+                        <reg>onsen</reg>
+                    </choice> goeden wille noch <choice>
+                        <orig>onſe</orig>
+                        <reg>onse</reg>
+                    </choice> macht daer toe niet
+<milestone unit="line"/>
+                    <lb/>helpen en <choice>
+                        <orig>ſullen</orig>
+                        <reg>sullen</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ten <choice>
+                        <orig>ſy</orig>
+                        <reg>sy</reg>
+                    </choice> dat wy connen <choice>
+                        <orig>geſamptelijck</orig>
+                        <reg>gesamptelijck</reg>
+                    </choice> in een naerdere ende <choice>
+                        <orig>
+                            <w>ſter
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>kere</w>
+                        </orig>
+                        <reg>
+                            <w>ster<milestone unit="line"/>
+                                <lb rend="trennstrich"/>kere</w>
+                        </reg>
+                    </choice> verbont<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>onuerbꝛeeckelijcke</orig>
+                        <reg>onverbreeckelijcke</reg>
+                    </choice> <choice>
+                        <orig>accooꝛdt</orig>
+                        <reg>accoordt</reg>
+                    </choice> ende vereeninghe<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>ſonderlinghe</orig>
+                        <reg>sonderlinghe</reg>
+                    </choice> ten
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>opſiene</orig>
+                        <reg>opsiene</reg>
+                    </choice> vande Religie. Want <choice>
+                        <orig>aengheſien</orig>
+                        <reg>aenghesien</reg>
+                    </choice> dat niet alleenlijck ter <choice>
+                        <orig>occaſie</orig>
+                        <reg>occasie</reg>
+                    </choice> <w>van
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>de</w> <choice>
+                        <orig>Ooꝛloghe</orig>
+                        <reg>Oorloghe</reg>
+                    </choice>
+                    <choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> Maer<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 18</bibl>: nemaer [!].</note> oock van die <choice>
+                        <orig>Jneuitable</orig>
+                        <reg>Inevitable</reg>
+                    </choice> frequentatie ende <choice>
+                        <orig>conuerſatie</orig>
+                        <reg>conversatie</reg>
+                    </choice>
+
+ <milestone unit="line"/>
+                    <lb/>
+                    <pb facs="#antwerpen_5" n="A1v"/>vande Coopluyden ende andere <choice>
+                        <orig>Jnwoonders</orig>
+                        <reg>Inwoonders</reg>
+                    </choice> vande omliggende Rijcken <w>en
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>de</w>
+                    <note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 20</bibl> aus: <w>
+                            <choice>
+                                <orig>vāden</orig>
+                                <reg>vanden</reg>
+                            </choice>
+                        </w>.</note> Lande<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> als van <rs type="place" ref="#frankreich_koenigreich">Vranckrijck</rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <rs type="place" ref="#england_koenigreich">Enghelant</rs> ende <rs type="place" ref="#heiliges_roemisches_reich">
+                        <choice>
+                            <orig>Duytſlant</orig>
+                            <reg>Duytslant</reg>
+                        </choice>
+                    </rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ende de <w>ande 
+ <milestone unit="line"/>
+                        <lb rend="trennstrich"/>re</w> <seg xml:id="seg2">Religie <choice>
+                            <orig>ghepꝛetendeert</orig>
+                            <reg>ghepretendeert</reg>
+                        </choice> <choice>
+                            <orig>refoꝛmeerde</orig>
+                            <reg>reformeerde</reg>
+                        </choice>
+                    </seg> <seg type="crit_app">(<choice>
+                            <orig>gheanueert</orig>
+                            <reg>gheanveert</reg>
+                        </choice> hebbende)</seg>
+                    <note type="crit_app">Ohne Klammer <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 22-23</bibl>.</note>
+                    <supplied>,</supplied> <choice>
+                        <orig>deſelue</orig>
+                        <reg>deselve</reg>
+                    </choice> Religie
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>herwaertſouere</orig>
+                        <reg>herwaertsovere</reg>
+                    </choice> in <choice>
+                        <orig>diuerſche</orig>
+                        <reg>diversche</reg>
+                    </choice> <choice>
+                        <orig>Pꝛouincien</orig>
+                        <reg>Provincien</reg>
+                    </choice> gheachter volcht ende <choice>
+                        <orig>ſeer</orig>
+                        <reg>seer</reg>
+                    </choice> beherticht
+<milestone unit="line"/>
+                    <lb/>wert. Soo is grootelijcx te duchtene<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> ten <choice>
+                        <orig>ſy</orig>
+                        <reg>sy</reg>
+                    </choice> datmen de Liberteyt ende <w>exer 
+ <milestone unit="line"/>
+                        <lb rend="trennstrich"/>citie</w> van deene<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> <choice>
+                        <orig>ſo</orig>
+                        <reg>so</reg>
+                    </choice> wel als vande <seg xml:id="seg3">oude Religie</seg> toelaet met een <choice>
+                        <orig>vꝛiendelijc</orig>
+                        <reg>vriendelijc</reg>
+                    </choice> <w>ac
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>coo</w>
+                    <choice>
+                        <orig>ꝛt</orig>
+                        <reg>rt</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ende Religien <choice>
+                        <orig>vꝛede</orig>
+                        <reg>vrede</reg>
+                    </choice>
+                    <note type="crit_app">Korrigiert aus: <choice>
+                            <orig>wꝛeet</orig>
+                            <reg>wreet</reg>
+                        </choice>.</note>: Exempel nemende aen <rs type="place" ref="#heiliges_roemisches_reich">
+                        <choice>
+                            <orig>Duytſlant</orig>
+                            <reg>Duytslant</reg>
+                        </choice>
+                    </rs> ende <rs type="place" ref="#frankreich_koenigreich">
+                        <w>Vranck 
+<milestone unit="line"/>
+                            <lb rend="trennstrich"/>rijck</w>
+                    </rs>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> die by dien middele <choice>
+                        <orig>tſamen</orig>
+                        <reg>tsamen</reg>
+                    </choice> <choice>
+                        <orig>ouercomen</orig>
+                        <reg>overcomen</reg>
+                    </choice> ende in <choice>
+                        <orig>vꝛeede</orig>
+                        <reg>vreede</reg>
+                    </choice> ende <choice>
+                        <orig>vooꝛſpoet</orig>
+                        <reg>voorspoet</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>le
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>uende</w>
+                        </orig>
+                        <reg>
+                            <w>le<milestone unit="line"/>
+                                <lb rend="trennstrich"/>vende</w>
+                        </reg>
+                    </choice> zijn<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> daer <choice>
+                        <orig>ſy</orig>
+                        <reg>sy</reg>
+                    </choice> te voren<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> deen den anderen <choice>
+                        <orig>gheenſins</orig>
+                        <reg>gheensins</reg>
+                    </choice> connende <choice>
+                        <orig>verdꝛagen</orig>
+                        <reg>verdragen</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice>
+ <milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>ſeer</orig>
+                        <reg>seer</reg>
+                    </choice> vyantlijck tracteerden<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice>
+                    <note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 32</bibl>. <hi rend="italic">Textvorlage:</hi> ende.</note> dat by <choice>
+                        <orig>ghebꝛeecke</orig>
+                        <reg>ghebreecke</reg>
+                    </choice> van die groote dangieren<note type="crit_app">Fehlt <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 494, Z. 32</bibl>.</note>
+                    <choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> 
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>Bloetſtoꝛtinghe</orig>
+                        <reg>Bloetstortinghe</reg>
+                    </choice> ende ande <choice>
+                        <orig>Jnconuenienten</orig>
+                        <reg>Inconvenienten</reg>
+                    </choice> gebueren <choice>
+                        <orig>ſullen</orig>
+                        <reg>sullen</reg>
+                    </choice>. Waer <choice>
+                        <orig>dooꝛ</orig>
+                        <reg>door</reg>
+                    </choice> lancx <milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice> meer openinghe ende middelen <choice>
+                        <orig>onſer</orig>
+                        <reg>onser</reg>
+                    </choice> alder vyanden binnen <choice>
+                        <orig>ſlants</orig>
+                        <reg>slants</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>weſen
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>de</w>
+                        </orig>
+                        <reg>
+                            <w>wesen<milestone unit="line"/>
+                                <lb rend="trennstrich"/>de</w>
+                        </reg>
+                    </choice> <choice>
+                        <orig>ghegeuen</orig>
+                        <reg>ghegeven</reg>
+                    </choice> <choice>
+                        <orig>ſal</orig>
+                        <reg>sal</reg>
+                    </choice> werden<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> daer wy ter contrarien met een <choice>
+                        <orig>vꝛientſamighe</orig>
+                        <reg>vrientsamighe</reg>
+                    </choice> <choice>
+                        <orig>vnie</orig>
+                        <reg>unie</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>tſamen</orig>
+                        <reg>tsamen</reg>
+                    </choice> ghebonden ende ghecoppelt <choice>
+                        <orig>weſende</orig>
+                        <reg>wesende</reg>
+                    </choice>
+                    <supplied>,</supplied> ons moeghen van alle <choice>
+                        <orig>anſtaende</orig>
+                        <reg>anstaende</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>Jnconuenienten</orig>
+                        <reg>Inconvenienten</reg>
+                    </choice> ende afgrouwelijckheyden <choice>
+                        <orig>beſchermen</orig>
+                        <reg>beschermen</reg>
+                    </choice>
+                    <supplied>;</supplied>
+                </p>
+                <p resp="AS"> alle<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> welcke <choice>
+                        <orig>ſaecken</orig>
+                        <reg>saecken</reg>
+                    </choice> 
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>gheconſidereert</orig>
+                        <reg>gheconsidereert</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> ende <choice>
+                        <orig>ſonderlinghe</orig>
+                        <reg>sonderlinghe</reg>
+                    </choice> dat den <choice>
+                        <orig>uyant</orig>
+                        <reg>vyant</reg>
+                    </choice> niet<note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 2</bibl> aus: met.</note> anders <choice>
+                        <orig>vꝛeeſende</orig>
+                        <reg>vreesende</reg>
+                    </choice> dan 
+<milestone unit="line"/>
+                    <lb/>ons te <choice>
+                        <orig>ſiene</orig>
+                        <reg>siene</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> vereenicht ten <choice>
+                        <orig>opſiene</orig>
+                        <reg>opsiene</reg>
+                    </choice> van die Religie<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>ſulckes</orig>
+                        <reg>sulckes</reg>
+                    </choice> onder tdexel van
+<milestone unit="line"/>
+                    <lb/>die aen allen zijden ons te <choice>
+                        <orig>ſtellen</orig>
+                        <reg>stellen</reg>
+                    </choice> ende te houden in <choice>
+                        <orig>tweedꝛachticheyt</orig>
+                        <reg>tweedrachticheyt</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> ende <choice>
+                        <orig>ſoo</orig>
+                        <reg>soo</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>verre <choice>
+                        <orig>alſt</orig>
+                        <reg>alst</reg>
+                    </choice> ghebuert dat hy met <choice>
+                        <orig>ſchalckliſtighe</orig>
+                        <reg>schalcklistighe</reg>
+                    </choice> behendicheyden oft met gewelt
+<milestone unit="line"/>
+                    <lb/>int Lant valt<choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> hy<note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 7</bibl> aus: Ny.</note> en <choice>
+                        <orig>ſal</orig>
+                        <reg>sal</reg>
+                    </choice> noch <choice>
+                        <orig>Gheeſtelijck</orig>
+                        <reg>Gheestelijck</reg>
+                    </choice> noch Catholijc<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> noch anderen <choice>
+                        <orig>
+                            <w>ſpa
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ren</w>
+                        </orig>
+                        <reg>
+                            <w>spa<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ren</w>
+                        </reg>
+                    </choice>. <choice>
+                        <orig>Gheconſidereert</orig>
+                        <reg>Gheconsidereert</reg>
+                    </choice> oock dat de <choice>
+                        <orig>vooꝛnoemde</orig>
+                        <reg>voornoemde</reg>
+                    </choice> vande Religie <choice>
+                        <orig>gepꝛetendeert</orig>
+                        <reg>gepretendeert</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>
+                    <choice>
+                        <orig>gherefoꝛmeerde</orig>
+                        <reg>ghereformeerde</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> hebben by <choice>
+                        <orig>diuerſche</orig>
+                        <reg>diversche</reg>
+                    </choice> <choice>
+                        <orig>Requeſten</orig>
+                        <reg>Requesten</reg>
+                    </choice> <choice>
+                        <orig>ſeer</orig>
+                        <reg>seer</reg>
+                    </choice> <choice>
+                        <orig>inſtantelijck</orig>
+                        <reg>instantelijck</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>gheſubbli
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>eert</w>
+                        </orig>
+                        <reg>
+                            <w>ghesubbli<milestone unit="line"/>
+                                <lb rend="trennstrich"/>eert</w>
+                        </reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> dat hen luyden de Libre Exercitie van die <choice>
+                        <orig>ſoude</orig>
+                        <reg>soude</reg>
+                    </choice> toeghelaten zijn<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice>
+                    <note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 11</bibl>: <hi rend="italic">danach folgend</hi> met.</note> ende 
+<milestone unit="line"/>
+                    <lb/>onder <choice>
+                        <orig>ſulcke</orig>
+                        <reg>sulcke</reg>
+                    </choice> Regule ende <choice>
+                        <orig>Oꝛdinantie</orig>
+                        <reg>Ordinantie</reg>
+                    </choice> <choice>
+                        <orig>alſt</orig>
+                        <reg>alst</reg>
+                    </choice> betamen<note type="crit_app">Korrigiert nach <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 12</bibl> aus: betalen.</note> <choice>
+                        <orig>ſoude</orig>
+                        <reg>soude</reg>
+                    </choice>: Soo hebben wy tot
+<milestone unit="line"/>
+                    <lb/>ghemeene <choice>
+                        <orig>Ruſte</orig>
+                        <reg>Ruste</reg>
+                    </choice> ende <choice>
+                        <orig>Uꝛeede</orig>
+                        <reg>Vreede</reg>
+                    </choice> nae rijpe deliberatie daer op ghenomen<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> niet <w>al
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>leenlijck</w> met den ghedeputeerden vanden Ghenerale Staten<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> maer<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 15</bibl>: nemaer [!].</note> oock int
+<milestone unit="line"/>
+                    <lb/>perticulier hebbende daer op ghehoet de Staten van elcke <choice>
+                        <orig>Pꝛouincien</orig>
+                        <reg>Provincien</reg>
+                    </choice>
+                    <choice>
+                        <orig>:</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>
+                            <w>Ghe
+<milestone unit="line"/>
+                                <lb rend="trennstrich"/>oꝛdineert</w>
+                        </orig>
+                        <reg>
+                            <w>Ghe<milestone unit="line"/>
+                                <lb rend="trennstrich"/>ordineert</w>
+                        </reg>
+                    </choice> ende <choice>
+                        <orig>gheſtatueert</orig>
+                        <reg>ghestatueert</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>oꝛdinieren</orig>
+                        <reg>ordinieren</reg>
+                    </choice> ende <choice>
+                        <orig>ſtatueeren</orig>
+                        <reg>statueeren</reg>
+                    </choice> by <choice>
+                        <orig>deſen</orig>
+                        <reg>desen</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> die nae <w>vol
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>ghende</w> Poincten. Ende dit <choice>
+                        <orig>ſonder</orig>
+                        <reg>sonder</reg>
+                    </choice> <choice>
+                        <orig>pꝛeiudicie</orig>
+                        <reg>prejudicie</reg>
+                    </choice> vande <choice>
+                        <orig>vnije</orig>
+                        <reg>unije</reg>
+                    </choice> ende<note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 19</bibl>: vande.</note> <choice>
+                        <orig>Pꝛouincien</orig>
+                        <reg>Provincien</reg>
+                    </choice>
+<milestone unit="line"/>
+                    <lb/>van <choice>
+                        <orig>herwaertſouere</orig>
+                        <reg>herwaertsovere</reg>
+                    </choice>
+                    <choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> de welcke hen luyden niet en <choice>
+                        <orig>behooꝛden</orig>
+                        <reg>behoorden</reg>
+                    </choice> te alteeren noch
+<milestone unit="line"/>
+                    <lb/>
+                    <seg type="crit_app">te doen <choice>
+                            <orig>ſcheyden</orig>
+                            <reg>scheyden</reg>
+                        </choice>
+                    </seg>
+                    <note type="crit_app">
+                        <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 21</bibl>: scheedene deen.</note> vanden anderen<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> ten <choice>
+                        <orig>occaſie</orig>
+                        <reg>occasie</reg>
+                    </choice> van <choice>
+                        <orig>deſe</orig>
+                        <reg>dese</reg>
+                    </choice> <choice>
+                        <orig>Oꝛdinantie</orig>
+                        <reg>Ordinantie</reg>
+                    </choice> (<choice>
+                        <orig>ſ</orig>
+                        <reg>s</reg>
+                    </choice>
+                    <w>onderlin
+<milestone unit="line"/>
+                        <lb rend="trennstrich"/>ge</w>)<note type="crit_app">Ohne Klammer <bibl>
+                            <ref type="bibl" target="#schrevel_recueil_1">
+                                <surname type="editor">Schrevel</surname>, Recueil 1</ref>, S. 495, Z. 22</bibl>.</note>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> <choice>
+                        <orig>aengeſien</orig>
+                        <reg>aengesien</reg>
+                    </choice> dat niemant bedwongen en is te veranderen zijne Religie<choice>
+                        <orig> /</orig>
+                        <reg/>
+                    </choice> noch
+<milestone unit="line"/>
+                    <lb/>taccepteeren de Liberteyt<choice>
+                        <orig> /</orig>
+                        <reg>,</reg>
+                    </choice> ten <choice>
+                        <orig>ſy</orig>
+                        <reg>sy</reg>
+                    </choice> dat <choice>
+                        <orig>hyſe</orig>
+                        <reg>hyse</reg>
+                    </choice> goet vint.</p>
+            </div>
+      </body>
+  </text>
+</TEI>

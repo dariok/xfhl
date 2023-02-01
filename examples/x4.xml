@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <p>
+           <hi rend="bold">Zeile 1</hi>
+           <hi rend="italic">Zweite Zeile </hi>
+           <hi rend="italic">Rest der 2. Zeile</hi>
+        </p>
+     </front>
+      <body>
+         <list>
+            <item>1</item>
+            <item>5</item>
+            <item>39</item>
+            <item>26</item>
+            <item>8</item>
+            <item>104</item>
+            <item>L</item>
+         </list>
+         <list>
+            <item>Anton</item>
+            <item>Berta</item>
+            <item>Ärger</item>
+            <item>Ökonom</item>
+            <item>Zacharias</item>
+            <item>Andrea</item>
+            <item>Sophie</item>
+            <item>Jens</item>
+            <item>Kevin</item>
+            <item>Manuela</item>
+            <item>Mia</item>
+         </list>
+      </body>
+     <back>
+        <ab>
+        <cb />
+        asdf asdf asd f<hi> asdf asdf </hi>
+        asdf asdf asdf asdf asf asdf asf
+        <cb />tzj rtzj rtzj rtzj rtzjr tzj rtzj 
+        rtzj rtzj rtzj rtzj rtzjrtzj rtzj 
+        <cb /> enlgvf  jdskgjf aölkfsgj ouitrg nfgv 
+        adsgf jdfgaewrpiajrogaer9gaq
+        e</ab>
+     </back>
+  </text>
+</TEI>
